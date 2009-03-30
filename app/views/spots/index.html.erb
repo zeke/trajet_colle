@@ -1,0 +1,32 @@
+<h1>Listing spots</h1>
+
+<table>
+  <tr>
+    <th>Map</th>
+    <th>Name</th>
+    <th>Permalink</th>
+    <th>Description</th>
+    <th>Lat</th>
+    <th>Long</th>
+    <th>Flickr url</th>
+  </tr>
+
+<% @spots.each do |spot| %>
+  <tr>
+    <td><%=h spot.map_id %></td>
+    <td><%=h spot.name %></td>
+    <td><%=h spot.permalink %></td>
+    <td><%=h spot.description %></td>
+    <td><%=h spot.lat %></td>
+    <td><%=h spot.long %></td>
+    <td><%=h spot.flickr_url %></td>
+    <td><%= link_to 'Show', spot %></td>
+    <td><%= link_to 'Edit', edit_spot_path(spot) %></td>
+    <td><%= link_to 'Destroy', spot, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New spot', new_spot_path %>

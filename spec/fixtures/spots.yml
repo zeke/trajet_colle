@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  map_id: 1
+  name: MyString
+  permalink: MyString
+  description: MyText
+  lat: 1.5
+  long: 1.5
+  flickr_url: MyString
+
+two:
+  map_id: 1
+  name: MyString
+  permalink: MyString
+  description: MyText
+  lat: 1.5
+  long: 1.5
+  flickr_url: MyString

@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @map.name %>
+</p>
+
+<p>
+  <b>Permalink:</b>
+  <%=h @map.permalink %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @map.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_map_path(@map) %> |
+<%= link_to 'Back', maps_path %>
