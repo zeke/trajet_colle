@@ -1,0 +1,15 @@
+%p
+  %b
+    Name:
+  = h @map.name
+%p
+  %b
+    Permalink:
+  = h @map.permalink
+%p
+  %b
+    Description:
+  = h @map.description
+= link_to 'Edit', edit_map_path(@map)
+|
+= link_to 'Back', maps_path

@@ -1,0 +1,38 @@
+%h1
+  Editing spot
+- form_for(@spot) do |f|
+= f.error_messages
+%p
+  = f.label :map_id
+  %br/
+  = f.text_field :map_id
+%p
+  = f.label :name
+  %br/
+  = f.text_field :name
+%p
+  = f.label :permalink
+  %br/
+  = f.text_field :permalink
+%p
+  = f.label :description
+  %br/
+  = f.text_area :description
+%p
+  = f.label :lat
+  %br/
+  = f.text_field :lat
+%p
+  = f.label :long
+  %br/
+  = f.text_field :long
+%p
+  = f.label :flickr_url
+  %br/
+  = f.text_field :flickr_url
+%p
+  = f.submit 'Update'
+- end
+= link_to 'Show', @spot
+|
+= link_to 'Back', spots_path

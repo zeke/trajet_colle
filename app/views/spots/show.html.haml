@@ -1,0 +1,31 @@
+%p
+  %b
+    Map:
+  = h @spot.map_id
+%p
+  %b
+    Name:
+  = h @spot.name
+%p
+  %b
+    Permalink:
+  = h @spot.permalink
+%p
+  %b
+    Description:
+  = h @spot.description
+%p
+  %b
+    Lat:
+  = h @spot.lat
+%p
+  %b
+    Long:
+  = h @spot.long
+%p
+  %b
+    Flickr url:
+  = h @spot.flickr_url
+= link_to 'Edit', edit_spot_path(@spot)
+|
+= link_to 'Back', spots_path
