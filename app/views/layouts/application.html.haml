@@ -1,0 +1,20 @@
+%html
+  %head  
+    %title= page_title
+  
+    / Stylesheets
+    = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'print.css', :media => 'print'
+    /[if IE]
+      = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
+
+    / Javascripts
+    = javascript_include_tag "jquery"
+    = javascript_include_tag "jquery-ui"
+    = javascript_include_tag "jrails"
+    = javascript_include_tag "application"
+
+  %body
+  
+    %h1= page_title
+    = yield

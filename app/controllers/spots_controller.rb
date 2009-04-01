@@ -9,6 +9,13 @@ class SpotsController < ApplicationController
       format.xml  { render :xml => @spots }
     end
   end
+  
+  def fetch_flickr_photo_info url
+    doc = Nokogiri::HTML(open('url'))
+    doc.search('meta').each do |tag|
+      logger.debug tag.content
+    end
+  end
 
   # GET /spots/1
   # GET /spots/1.xml

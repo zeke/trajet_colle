@@ -1,0 +1,34 @@
+@import blueprint.sass
+@import blueprint/modules/scaffolding.sass
+@import compass/reset.sass
+
++blueprint
+// Remove the scaffolding when you're ready to start doing visual design.
+// Or leave it in if you're happy with how blueprint looks out-of-the-box
+//+blueprint-scaffolding
+
+
+body
+  :margin 10px
+  :font-family "Lucida Grande", "Verdana"
+
+h1, h2, h3, h4, h5, h6
+  :font-family Georgia, serif
+  
+h1
+  :color #F34607
+  :border-right 5px solid #F34607
+  :padding 5px 10px
+
+form
+  div
+    :padding 5px 10px
+    input.text
+      :margin 1px
+    label
+      :display block
+      :clear both
+      :font-weight normal
+      :color #666
+    textarea
+      :margin 0

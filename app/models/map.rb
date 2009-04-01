@@ -2,6 +2,10 @@ class Map < ActiveRecord::Base
 
   has_many :spots
 
+  def validate
+    # Watch for stopwords
+  end
+
 end
 
 # == Schema Information

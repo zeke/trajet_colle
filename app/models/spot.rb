@@ -1,6 +1,11 @@
 class Spot < ActiveRecord::Base
 
   belongs_to :map
+  has_permalink :name, :scope => :map
+  
+  def validate
+    # Watch for stopwords
+  end
   
 end
 

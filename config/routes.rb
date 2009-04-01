@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :spots
+  map.resources :spots, :member => {:fetch_flickr_photo_info => :get}
 
   map.resources :maps
 

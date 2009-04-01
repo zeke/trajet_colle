@@ -2,19 +2,16 @@
   Editing map
 - form_for(@map) do |f|
 = f.error_messages
-%p
+%div
   = f.label :name
-  %br/
   = f.text_field :name
-%p
+%div
   = f.label :permalink
-  %br/
   = f.text_field :permalink
-%p
+%div
   = f.label :description
-  %br/
   = f.text_area :description
-%p
+%div
   = f.submit 'Update'
 - end
 = link_to 'Show', @map

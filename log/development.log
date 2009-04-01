@@ -32,3 +32,375 @@ Migrating to CreateSpots (20090330052400)
   [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
   [4;36;1mMap Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
   [4;35;1mSpot Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (41.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (180.2ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (143.1ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateMaps (20090330051648)
+  [4;35;1mSQL (63.7ms)[0m   [0mCREATE TABLE `maps` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `permalink` varchar(255), `description` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090330051648')[0m
+Migrating to CreateSpots (20090330052400)
+  [4;35;1mSQL (106.5ms)[0m   [0mCREATE TABLE `spots` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `map_id` int(11), `name` varchar(255), `permalink` varchar(255), `description` text, `lat` float, `long` float, `flickr_url` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090330052400')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (2.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mSQL (53.3ms)[0m   [0mdescribe `maps`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `maps`[0m
+  [4;35;1mSQL (2.6ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (3.7ms)[0m   [0;1mdescribe `spots`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `spots`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#index (for 127.0.0.1 at 2009-03-31 23:28:03) [GET]
+  [4;36;1mSpot Load (0.6ms)[0m   [0;1mSELECT * FROM `spots` [0m
+Rendering template within layouts/application
+Rendering spots/index
+
+ActionView::TemplateError (You don't need to use "- end" in Haml. Use indentation instead:
+- if foo?
+  %strong Foo!
+- else
+  Not foo.) on line #41 of app/views/spots/index.html.haml:
+38:       = link_to 'Edit', edit_spot_path(spot)
+39:     %td
+40:       = link_to 'Destroy', spot, :confirm =&gt; 'Are you sure?', :method =&gt; :delete
+41:   - end
+42: %br/
+43: = link_to 'New spot', new_spot_path
+
+    app/views/spots/index.html.haml:41
+    haml (2.1.0) lib/haml/precompiler.rb:214:in `process_line'
+    haml (2.1.0) lib/haml/precompiler.rb:166:in `precompile'
+    haml (2.1.0) lib/haml/engine.rb:103:in `initialize'
+    haml (2.1.0) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.1.0) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/spots_controller.rb:7:in `index'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (276.5ms)
+Rendered rescues/_request_and_response (3.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#index (for 127.0.0.1 at 2009-03-31 23:29:30) [GET]
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT * FROM `spots` [0m
+Rendering template within layouts/application
+Rendering spots/index
+Completed in 53ms (View: 28, DB: 1) | 200 OK [http://localhost/spots]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#index (for 127.0.0.1 at 2009-03-31 23:30:44) [GET]
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT * FROM `spots` [0m
+Rendering template within layouts/application
+Rendering spots/index
+Completed in 58ms (View: 33, DB: 1) | 200 OK [http://localhost/spots]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:32:53) [GET]
+  [4;35;1mSpot Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 185ms (View: 157, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:33:14) [GET]
+  [4;36;1mSpot Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 59ms (View: 29, DB: 4) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:39:19) [GET]
+  [4;35;1mSpot Columns (3.7ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 59ms (View: 28, DB: 4) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:39:47) [GET]
+  [4;36;1mSpot Columns (3.6ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 63ms (View: 33, DB: 4) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:40:25) [GET]
+  [4;35;1mSpot Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 81ms (View: 46, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:41:15) [GET]
+  [4;36;1mSpot Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 76ms (View: 46, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:41:38) [GET]
+  [4;35;1mSpot Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 49ms (View: 19, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:41:45) [GET]
+  [4;36;1mSpot Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 47ms (View: 18, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:41:58) [GET]
+  [4;35;1mSpot Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 50ms (View: 20, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:43:01) [GET]
+  [4;36;1mSpot Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 48ms (View: 18, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:43:16) [GET]
+  [4;35;1mSpot Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 53ms (View: 24, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:43:26) [GET]
+  [4;36;1mSpot Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 48ms (View: 17, DB: 4) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:43:53) [GET]
+  [4;35;1mSpot Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 64ms (View: 35, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:44:15) [GET]
+  [4;36;1mSpot Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 65ms (View: 35, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:44:20) [GET]
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 47ms (View: 19, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:44:29) [GET]
+  [4;36;1mSpot Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 47ms (View: 18, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:45:49) [GET]
+  [4;35;1mSpot Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 47ms (View: 17, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:46:21) [GET]
+  [4;36;1mSpot Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 50ms (View: 19, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:46:30) [GET]
+  [4;35;1mSpot Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 48ms (View: 18, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:47:54) [GET]
+  [4;36;1mSpot Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 49ms (View: 18, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:48:02) [GET]
+  [4;35;1mSpot Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 53ms (View: 23, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:48:06) [GET]
+  [4;36;1mSpot Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 47ms (View: 18, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:48:21) [GET]
+  [4;35;1mSpot Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 49ms (View: 20, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:48:44) [GET]
+  [4;36;1mSpot Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 49ms (View: 18, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:48:51) [GET]
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 47ms (View: 19, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:49:00) [GET]
+  [4;36;1mSpot Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 167ms (View: 22, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:49:19) [GET]
+  [4;35;1mSpot Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 49ms (View: 19, DB: 4) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:49:26) [GET]
+  [4;36;1mSpot Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 46ms (View: 17, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:49:31) [GET]
+  [4;35;1mSpot Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 48ms (View: 19, DB: 4) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:49:38) [GET]
+  [4;36;1mSpot Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 50ms (View: 19, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:49:52) [GET]
+  [4;35;1mSpot Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 46ms (View: 17, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:50:14) [GET]
+  [4;36;1mSpot Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 47ms (View: 17, DB: 3) | 200 OK [http://localhost/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-03-31 23:50:22) [GET]
+  [4;35;1mSpot Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 48ms (View: 17, DB: 3) | 200 OK [http://localhost/spots/new]

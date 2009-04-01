@@ -1,43 +1,35 @@
-%h1
-  Listing spots
+%h1 Spots
+
 %table
   %tr
-    %th
-      Map
-    %th
-      Name
-    %th
-      Permalink
-    %th
-      Description
-    %th
-      Lat
-    %th
-      Long
-    %th
-      Flickr url
+    %th Map
+    %th Name
+    %th Description
+    %th Lat
+    %th Long
+    %th Flickr url
+    %th Options
+
   - @spots.each do |spot|
-  %tr
-    %td
-      = h spot.map_id
-    %td
-      = h spot.name
-    %td
-      = h spot.permalink
-    %td
-      = h spot.description
-    %td
-      = h spot.lat
-    %td
-      = h spot.long
-    %td
-      = h spot.flickr_url
-    %td
-      = link_to 'Show', spot
-    %td
-      = link_to 'Edit', edit_spot_path(spot)
-    %td
-      = link_to 'Destroy', spot, :confirm =&gt; 'Are you sure?', :method =&gt; :delete
-  - end
+    %tr
+      %td
+        = h spot.map_id
+      %td
+        = h spot.name
+      %td
+        = h spot.permalink
+      %td
+        = h spot.description
+      %td
+        = h spot.lat
+      %td
+        = h spot.long
+      %td
+        = h spot.flickr_url
+      %td
+        = link_to 'Show', spot
+        = link_to 'Edit', edit_spot_path(spot)
+        = link_to 'Destroy', spot, :confirm => 'Are you sure?', :method => :delete
+
 %br/
 = link_to 'New spot', new_spot_path

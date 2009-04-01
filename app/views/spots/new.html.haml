@@ -1,36 +1,28 @@
-%h1
-  New spot
 - form_for(@spot) do |f|
-= f.error_messages
-%p
-  = f.label :map_id
-  %br/
-  = f.text_field :map_id
-%p
-  = f.label :name
-  %br/
-  = f.text_field :name
-%p
-  = f.label :permalink
-  %br/
-  = f.text_field :permalink
-%p
-  = f.label :description
-  %br/
-  = f.text_area :description
-%p
-  = f.label :lat
-  %br/
-  = f.text_field :lat
-%p
-  = f.label :long
-  %br/
-  = f.text_field :long
-%p
-  = f.label :flickr_url
-  %br/
-  = f.text_field :flickr_url
-%p
-  = f.submit 'Create'
-- end
-= link_to 'Back', spots_path
+  = f.error_messages
+  
+  %p http://www.flickr.com/photos/sikelianos/3374227044/in/photostream/
+  
+  %div
+    = f.label :flickr_url
+    = f.text_field :flickr_url, :class => "text"
+  
+  %div
+    = f.label :name
+    = f.text_field :name, :class => "text"
+  
+  %div
+    = f.label :description
+    = f.text_area :description, :class => "text"
+  
+  %div
+    = f.label :lat, "Latitude"
+    = f.text_field :lat, :class => "text"
+  
+  %div
+    = f.label :long, "Longitude"
+    = f.text_field :long, :class => "text"
+    
+  %div
+    = f.submit 'Create'
+    = link_to 'Back', spots_path
