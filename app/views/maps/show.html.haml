@@ -1,15 +1,22 @@
-%div
-  %b
-    Name:
-  = h @map.name
-%div
-  %b
-    Permalink:
-  = h @map.permalink
-%div
-  %b
-    Description:
-  = h @map.description
-= link_to 'Edit', edit_map_path(@map)
-|
-= link_to 'Back', maps_path
+
+= google_map(@map)
+
+%div.thirds
+
+  %div
+    %h2 scoop
+    %p= h @map.description
+
+  %div
+    %h2 spots
+    %ul.spot_list
+      -for spot in @map.spots
+        %li
+          = link_to(spot_thumbnail(spot), "#", :class => "image")
+          = link_to(spot.name, "#")
+
+  %div
+    %h2 options
+    %ul.options
+      %li= link_to('Add a Spot', new_map_spot_path(@map))
+      %li= link_to('Edit Map Name/Description', edit_map_path(@map))

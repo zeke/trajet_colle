@@ -1,6 +1,7 @@
 class SpotsController < ApplicationController
-  # GET /spots
-  # GET /spots.xml
+  
+  before_filter :load_map
+
   def index
     @spots = Spot.all
 
@@ -10,15 +11,12 @@ class SpotsController < ApplicationController
     end
   end
   
-  def fetch_flickr_photo_info url
-    doc = Nokogiri::HTML(open('url'))
-    doc.search('meta').each do |tag|
-      logger.debug tag.content
-    end
+  def fetch_flickr_photo_info
+    url = params[:url]
+    doc = Nokogiri::HTML(open(url))
+    render(:update) { |page| page.populate_form_with_flickr_photo_info(url, doc) }
   end
 
-  # GET /spots/1
-  # GET /spots/1.xml
   def show
     @spot = Spot.find(params[:id])
 
@@ -27,9 +25,7 @@ class SpotsController < ApplicationController
       format.xml  { render :xml => @spot }
     end
   end
-
-  # GET /spots/new
-  # GET /spots/new.xml
+  
   def new
     @spot = Spot.new
 
@@ -39,20 +35,17 @@ class SpotsController < ApplicationController
     end
   end
 
-  # GET /spots/1/edit
   def edit
     @spot = Spot.find(params[:id])
   end
-
-  # POST /spots
-  # POST /spots.xml
+  
   def create
-    @spot = Spot.new(params[:spot])
+    @spot = @map.spots.new(params[:spot])
 
     respond_to do |format|
       if @spot.save
         flash[:notice] = 'Spot was successfully created.'
-        format.html { redirect_to(@spot) }
+        format.html { redirect_to(@map) }
         format.xml  { render :xml => @spot, :status => :created, :location => @spot }
       else
         format.html { render :action => "new" }
@@ -61,8 +54,6 @@ class SpotsController < ApplicationController
     end
   end
 
-  # PUT /spots/1
-  # PUT /spots/1.xml
   def update
     @spot = Spot.find(params[:id])
 
@@ -78,8 +69,6 @@ class SpotsController < ApplicationController
     end
   end
 
-  # DELETE /spots/1
-  # DELETE /spots/1.xml
   def destroy
     @spot = Spot.find(params[:id])
     @spot.destroy
@@ -88,5 +77,11 @@ class SpotsController < ApplicationController
       format.html { redirect_to(spots_url) }
       format.xml  { head :ok }
     end
+  end
+  
+protected
+  
+  def load_map
+    @map = Map.find_by_permalink(params[:map_id])
   end
 end

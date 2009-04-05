@@ -1009,16 +1009,44 @@ textarea {
   padding: 5px; }
 
 body {
-  margin: 10px;
+  background-color: black;
+  color: white;
+  margin: 20px 10px 10px 10px;
   font-family: "Lucida Grande", "Verdana"; }
 
+div.thirds {
+  margin-top: 10px;
+  float: none;
+  clear: both;
+  overflow: hidden; }
+  div.thirds div {
+    float: left;
+    width: 32%;
+    margin-right: 10px;
+    border-top: 5px solid black;
+    border-color: #e1d1b0; }
+
 h1, h2, h3, h4, h5, h6 {
+  color: #e1d1b0;
   font-family: Georgia, serif; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #e1d1b0;
+    text-decoration: none; }
+    h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+      color: #e1d1b0; }
+    h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+      text-decoration: line-through; }
 
 h1 {
-  color: #F34607;
-  border-right: 5px solid #F34607;
-  padding: 5px 10px; }
+  font-size: 2.4em; }
+  h1 a {
+    padding: 5px 0px; }
+
+h2 {
+  font-size: 1.5em; }
+
+a, a.visited, a.active, a.hover {
+  color: #e1d1b0; }
 
 form div {
   padding: 5px 10px; }
@@ -1031,3 +1059,26 @@ form div {
     color: #666; }
   form div textarea {
     margin: 0; }
+
+div.google_map {
+  height: 400px; }
+
+img.thumb {
+  border: 1px solid white;
+  border-color: #e1d1b0; }
+
+ul.spot_list {
+  margin: 0; }
+  ul.spot_list li {
+    list-style-type: none;
+    vertical-align: middle;
+    float: none;
+    clear: both;
+    overflow: hidden;
+    margin: 0 0 5px 0; }
+    ul.spot_list li a {
+      float: left;
+      display: block;
+      margin: 15px 0px 0px 10px; }
+      ul.spot_list li a.image {
+        margin: 0; }

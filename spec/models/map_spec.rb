@@ -1,3 +1,16 @@
+# == Schema Information
+# Schema version: 20090404232542
+#
+# Table name: maps
+#
+#  id          :integer(4)      not null, primary key
+#  name        :string(255)
+#  permalink   :string(255)
+#  description :text
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
 describe Map do

@@ -1,27 +1,7 @@
-%h1
-  Listing maps
-%table
-  %tr
-    %th
-      Name
-    %th
-      Permalink
-    %th
-      Description
-  - @maps.each do |map|
-  %tr
-    %td
-      = h map.name
-    %td
-      = h map.permalink
-    %td
-      = h map.description
-    %td
-      = link_to 'Show', map
-    %td
-      = link_to 'Edit', edit_map_path(map)
-    %td
-      = link_to 'Destroy', map, :confirm => 'Are you sure?', :method => :delete
-  - end
-%br/
+- @maps.each do |map|
+  %hr
+  %h2= link_to(h(map.name), map)
+  %p= h map.description
+
+%hr
 = link_to 'New map', new_map_path

@@ -1,6 +1,5 @@
 class MapsController < ApplicationController
-  # GET /maps
-  # GET /maps.xml
+
   def index
     @maps = Map.all
 
@@ -10,10 +9,8 @@ class MapsController < ApplicationController
     end
   end
 
-  # GET /maps/1
-  # GET /maps/1.xml
   def show
-    @map = Map.find(params[:id])
+    @map = Map.find_by_permalink(params[:id], :include => [:spots])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -21,8 +18,6 @@ class MapsController < ApplicationController
     end
   end
 
-  # GET /maps/new
-  # GET /maps/new.xml
   def new
     @map = Map.new
 
@@ -34,7 +29,7 @@ class MapsController < ApplicationController
 
   # GET /maps/1/edit
   def edit
-    @map = Map.find(params[:id])
+    @map = Map.find_by_permalink(params[:id])
   end
 
   # POST /maps
@@ -57,7 +52,7 @@ class MapsController < ApplicationController
   # PUT /maps/1
   # PUT /maps/1.xml
   def update
-    @map = Map.find(params[:id])
+    @map = Map.find_by_permalink(params[:id])
 
     respond_to do |format|
       if @map.update_attributes(params[:map])
@@ -74,7 +69,7 @@ class MapsController < ApplicationController
   # DELETE /maps/1
   # DELETE /maps/1.xml
   def destroy
-    @map = Map.find(params[:id])
+    @map = Map.find_by_permalink(params[:id])
     @map.destroy
 
     respond_to do |format|

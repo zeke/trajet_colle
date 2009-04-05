@@ -3,22 +3,57 @@
 @import compass/reset.sass
 
 +blueprint
+
 // Remove the scaffolding when you're ready to start doing visual design.
 // Or leave it in if you're happy with how blueprint looks out-of-the-box
 //+blueprint-scaffolding
 
+!header_color = #E1D1B0
+!link_color = #E1D1B0
+!border_color = #E1D1B0
 
 body
-  :margin 10px
+  :background-color black
+  :color white
+  :margin 20px 10px 10px 10px
   :font-family "Lucida Grande", "Verdana"
+  
+
+div
+  &.thirds
+    :margin-top 10px
+    :float none
+    :clear both
+    :overflow hidden
+    div
+      :float left
+      :width 32%
+      :margin-right 10px
+      :border-top 5px solid black
+      :border-color = !header_color
 
 h1, h2, h3, h4, h5, h6
+  :color = !header_color
   :font-family Georgia, serif
+  a
+    :color = !header_color
+    :text-decoration none
+    &:visited
+      :color = !header_color
+    &:hover
+      :text-decoration line-through
+
   
 h1
-  :color #F34607
-  :border-right 5px solid #F34607
-  :padding 5px 10px
+  :font-size 2.4em
+  a
+    :padding 5px 0px
+          
+h2
+  :font-size 1.5em
+  
+a, a.visited, a.active, a.hover
+  :color = !link_color
 
 form
   div
@@ -32,3 +67,26 @@ form
       :color #666
     textarea
       :margin 0
+      
+div.google_map
+  :height 400px
+  
+img.thumb
+  :border 1px solid white
+  :border-color = !border_color
+  
+ul.spot_list
+  :margin 0
+  li
+    :list-style-type none
+    :vertical-align middle
+    :float none
+    :clear both
+    :overflow hidden
+    :margin 0 0 5px 0
+    a
+      :float left
+      :display block
+      :margin 15px 0px 0px 10px
+      &.image
+        :margin 0

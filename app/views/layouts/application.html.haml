@@ -12,9 +12,11 @@
     = javascript_include_tag "jquery"
     = javascript_include_tag "jquery-ui"
     = javascript_include_tag "jrails"
+    = javascript_include_tag "jquery.field.min"
     = javascript_include_tag "application"
 
   %body
   
-    %h1= page_title
+    %h1= page_header
+    
     = yield

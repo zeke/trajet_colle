@@ -21,8 +21,9 @@ Rails::Initializer.run do |config|
   # config.gem "aws-s3", :lib => "aws/s3"
   # config.gem "flickr", :source => "http://gems.github.com"
   # config.gem "flickr-fu", :lib => 'flickr_fu'
-  # config.gem "flickraw"
-  config.gem "mechanize"
+  config.gem "flickraw"
+  config.gem "mechanize" # includes nokogiri, i think.
+  config.gem "zeke-monkey_patches", :lib => "monkey_patches", :version => '0.1.6'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
@@ -46,3 +47,8 @@ end
 
 require 'nokogiri'
 require 'open-uri'
+
+GOOGLE_APPLICATION_ID = "ABQIAAAA3HdfrnxFAPWyY-aiJUxmqRTJQa0g3IQ9GZqIMmInSLzwtGDKaBQ0KYLwBEKSM7F9gCevcsIf6WPuIQ"
+
+FlickRaw.api_key = FLICKR_API_KEY
+FlickRaw.shared_secret = FLICKR_SHARED_SECRET

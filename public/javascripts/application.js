@@ -1,2 +1,7 @@
-// Place your application-specific JavaScript functions and classes here
-// This file is automatically included by javascript_include_tag :defaults
+function update_input(f, v) {
+  $("input[id='" + f + "']").setValue(v);
+}
+
+function update_textarea(f, v) {
+  $("textarea[id='" + f + "']").setValue(v);
+}

@@ -1,10 +1,14 @@
 class Map < ActiveRecord::Base
 
   has_many :spots
+  
+  has_permalink :name
 
   def validate
-    # Watch for stopwords
+    # Watch for stopwords: maps, map, spots, spot
   end
+  
+  def to_param; self.permalink; end
 
 end
 

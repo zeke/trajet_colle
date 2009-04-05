@@ -1,7 +1,10 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :spots, :member => {:fetch_flickr_photo_info => :get}
 
-  map.resources :maps
+  map.resources :spots, :member => {:fetch_flickr_photo_info => :get}
+  
+  map.resources :maps do |mmap|
+    mmap.resources :spots
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
 
@@ -36,6 +39,7 @@ ActionController::Routing::Routes.draw do |map|
 
   # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
   # map.root :controller => "welcome"
+  map.root :controller => "maps"
 
   # See how all your routes lay out with "rake routes"
 
