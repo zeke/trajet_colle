@@ -28,6 +28,7 @@ code {
   font-family: 'andale mono', 'lucida console', monospace; }
 
 img {
+  display: inline;
   float: left;
   margin: 1.5em 1.5em 1.5em 0; }
 

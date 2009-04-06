@@ -1,5 +1,5 @@
 set :application, "trajet_colle"
-set :scm, :git
+set :scm, "git"
 set :repository,  "git@github.com:zeke/trajet_colle.git"
 set :user, "root"
 set :deploy_to, "/var/www/#{application}"
@@ -34,9 +34,12 @@ namespace :deploy do
     task t, :roles => :app do ; end
   end
   
+  desc "Create a symlink to database.yml and copy in secrets file" 
   task :after_update_code do
-     run "cp #{shared_path}/secrets.rb #{release_path}/config/secrets.rb"
+    run "cp #{shared_path}/config/secrets.rb #{release_path}/config/initializers/secrets.rb"  
+    run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml" 
   end
+  
   
   task :tail_log, :roles => :app do
     sudo "tail -f #{shared_path}/log/#{rails_env}.log"
