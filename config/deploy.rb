@@ -1,5 +1,5 @@
 set :application, "trajet_colle"
-set :scm, "git"
+set :scm, :git
 set :repository,  "git@github.com:zeke/trajet_colle.git"
 set :user, "root"
 set :deploy_to, "/var/www/#{application}"

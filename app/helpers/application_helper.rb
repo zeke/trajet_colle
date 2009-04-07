@@ -15,7 +15,29 @@ module ApplicationHelper
    o << link_to(@map.permalink, @map) if @map && !@map.new_record?
    o << link_to("spots", root_path) if params[:controller] == "spots"
    o << "new" if params[:action] == "new"
+   if params[:controller] == "static"
+     o << "how" if params[:action] == "how"
+   end
    o.join(" / ")
+ end
+ 
+ def main_nav
+   items = []
+   items << link_to("index", root_path)
+   items << link_to("maps", maps_path)
+   items << link_to("create your own", "static/how")
+   convert_to_list_items(items)
+ end
+ 
+ def convert_to_list_items(items)
+   output = ""
+   items.each_with_index do |item, index|
+     css = []
+     css << "first" if index == 0
+     css << "last" if index == items.size-1
+     output << content_tag(:li, item, :class => css.join(" "))
+   end
+   output
  end
  
  def flash_messages 

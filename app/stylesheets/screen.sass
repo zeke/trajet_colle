@@ -17,7 +17,7 @@
 body
   :background white url(../images/paper.jpg) repeat
   :color black
-  :margin 20px 10px 10px 10px
+  :margin 20px
   :font-family Georgia, serif
 
 hr
@@ -26,6 +26,30 @@ hr
   :border-color black
 
 div
+  &.header
+    :float none
+    :clear both
+    :overflow hidden
+    h1
+      :float left
+    ul
+      :float right
+      li
+        :list-style-type none
+        :float left
+        :margin 0 10px
+        &.first
+          :margin-right left
+        &.last
+          :margin-right right
+        a
+          :font-size 1.2em
+      
+  &.column
+    :width 500px
+    p
+      :font-size 1.1em
+      :margin 10px
   &.thirds
     :margin-top 10px
     :float none
@@ -41,17 +65,19 @@ div
 h1, h2, h3, h4, h5, h6
   :color = !header_color
   :font-family Georgia, serif
-  a
+
+a
+  :color = !header_color
+  :text-decoration none
+  &:visited
     :color = !header_color
-    :text-decoration none
-    &:visited
-      :color = !header_color
-    &:hover
-      :text-decoration line-through
+  &:hover
+    :text-decoration line-through
 
   
 h1
   :font-size 2.4em
+  :margin-left 10px
   a
     :padding 5px 0px
           

@@ -29,6 +29,11 @@ module SpotsHelper
     sizes.find {|s| s.label == 'Square' }.source
   end
   
+  def get_medium_url(flickr_photo_id)
+    sizes = flickr.photos.getSizes(:photo_id => flickr_photo_id)
+    sizes.find {|s| s.label == 'Medium' }.source
+  end
+  
   def spot_thumbnail(spot, options={})
     options[:size] ||= 40
     image_tag(spot.flickr_square_url, :width => options[:size], :height => options[:size], :class => "thumb")

@@ -4,7 +4,8 @@ class Spot < ActiveRecord::Base
   has_permalink :name, :scope => :map_id
   
   def validate
-    # Watch for stopwords
+    %w(spot map static index)
+    # Watch for stopwords:
   end
   
   def to_param; self.permalink; end
