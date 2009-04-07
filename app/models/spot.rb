@@ -7,7 +7,15 @@ class Spot < ActiveRecord::Base
     # Watch for stopwords
   end
   
+  def to_param; self.permalink; end
+  
+  def flickr_photo_url
+    return "http://www.flickr.com/photos/YOUR_FLICKR_USERNAME/PHOTO_ID/" if self.new_record?
+    "http://www.flickr.com/photos/#{flickr_user}/#{flickr_photo_id}/"
+  end
+  
   def flickr_map_url
+    return if self.new_record?
     "http://www.flickr.com/photos/#{flickr_user}/#{flickr_photo_id}/map/"
   end
     

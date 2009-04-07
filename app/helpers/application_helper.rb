@@ -12,7 +12,7 @@ module ApplicationHelper
    if params[:controller] == "maps"
      o << link_to("maps", root_path) 
    end
-   o << link_to(@map.permalink, @map) if @map
+   o << link_to(@map.permalink, @map) if @map && !@map.new_record?
    o << link_to("spots", root_path) if params[:controller] == "spots"
    o << "new" if params[:action] == "new"
    o.join(" / ")

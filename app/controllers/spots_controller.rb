@@ -18,7 +18,7 @@ class SpotsController < ApplicationController
   end
 
   def show
-    @spot = Spot.find(params[:id])
+    @spot = Spot.find_by_permalink(params[:id])
 
     respond_to do |format|
       format.html # show.html.erb
@@ -36,7 +36,7 @@ class SpotsController < ApplicationController
   end
 
   def edit
-    @spot = Spot.find(params[:id])
+    @spot = Spot.find_by_permalink(params[:id])
   end
   
   def create
@@ -55,12 +55,12 @@ class SpotsController < ApplicationController
   end
 
   def update
-    @spot = Spot.find(params[:id])
+    @spot = Spot.find_by_permalink(params[:id])
 
     respond_to do |format|
       if @spot.update_attributes(params[:spot])
         flash[:notice] = 'Spot was successfully updated.'
-        format.html { redirect_to(@spot) }
+        format.html { redirect_to(@map) }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
@@ -70,7 +70,7 @@ class SpotsController < ApplicationController
   end
 
   def destroy
-    @spot = Spot.find(params[:id])
+    @spot = Spot.find_by_permalink(params[:id])
     @spot.destroy
 
     respond_to do |format|

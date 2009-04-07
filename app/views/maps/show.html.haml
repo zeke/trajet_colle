@@ -13,7 +13,7 @@
       -for spot in @map.spots
         %li
           = link_to(spot_thumbnail(spot), "#", :class => "image")
-          = link_to(spot.name, "#")
+          = link_to(spot.name, edit_map_spot_path(@map, spot))
 
   %div
     %h2 options

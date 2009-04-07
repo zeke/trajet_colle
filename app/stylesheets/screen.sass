@@ -8,16 +8,22 @@
 // Or leave it in if you're happy with how blueprint looks out-of-the-box
 //+blueprint-scaffolding
 
-!header_color = #E1D1B0
-!link_color = #E1D1B0
-!border_color = #E1D1B0
+!header_color = #000
+!link_color = #000
+!border_color = #000
+
+!light_text = #5a3910
 
 body
-  :background-color black
-  :color white
+  :background white url(../images/paper.jpg) repeat
+  :color black
   :margin 20px 10px 10px 10px
-  :font-family "Lucida Grande", "Verdana"
-  
+  :font-family Georgia, serif
+
+hr
+  :color black
+  :background-color black
+  :border-color black
 
 div
   &.thirds
@@ -64,7 +70,7 @@ form
       :display block
       :clear both
       :font-weight normal
-      :color #666
+      :color = !light_text
     textarea
       :margin 0
       

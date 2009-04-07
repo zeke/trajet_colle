@@ -4969,3 +4969,1256 @@ ActionController::RoutingError (No route matches "/courses/1/sections/1/lessons/
   
 
 Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-07 02:28:37) [GET]
+  [4;36;1mMap Load (40.9ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 152ms (View: 37, DB: 41) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-07 02:30:46) [GET]
+  [4;35;1mMap Load (0.6ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 37ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-07 02:33:25) [GET]
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 33ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-07 02:33:28) [GET]
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 34ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-07 02:34:03) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 34ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-07 02:34:15) [GET]
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 34ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-07 02:34:23) [GET]
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 154ms (View: 6, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-07 02:34:44) [GET]
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 43ms (View: 15, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-07 02:35:07) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 44ms (View: 15, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-07 02:35:09) [GET]
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (5.8ms)
+Completed in 159ms (View: 129, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-07 02:35:14) [GET]
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.2ms)
+Completed in 45ms (View: 16, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-07 02:35:49) [GET]
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.2ms)
+Completed in 46ms (View: 16, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-07 02:37:04) [GET]
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.2ms)
+Completed in 156ms (View: 126, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-07 02:37:36) [GET]
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.2ms)
+Completed in 46ms (View: 16, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#create (for 127.0.0.1 at 2009-04-07 02:37:49) [POST]
+  Parameters: {"commit"=>"Create Map", "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "map"=>{"name"=>"sb", "description"=>"spots around santa barbara"}}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMap Exists (0.3ms)[0m   [0;1mSELECT `maps`.id FROM `maps` WHERE (permalink = 'sb') LIMIT 1[0m
+  [4;35;1mMap Create (0.3ms)[0m   [0mINSERT INTO `maps` (`name`, `permalink`, `updated_at`, `description`, `created_at`) VALUES('sb', 'sb', '2009-04-07 09:37:49', 'spots around santa barbara', '2009-04-07 09:37:49')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 117ms (DB: 3) | 302 Found [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:37:49) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Load (39.1ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 142ms (View: 24, DB: 41) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:37:55) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 200ms (View: 151, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 02:38:33) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415499602/"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 1158ms (View: 291, DB: 3) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-07 02:38:37) [POST]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"bernard", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415499602", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3628/3415499602_662d9a41e3_s.jpg", "lat"=>"34.419769", "long"=>"-119.689285"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA="}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSpot Exists (0.4ms)[0m   [0mSELECT `spots`.id FROM `spots` WHERE (permalink = 'bernard' and map_id = 1) LIMIT 1[0m
+  [4;36;1mSpot Create (0.3ms)[0m   [0;1mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `flickr_user`, `flickr_photo_id`, `description`, `lat`, `flickr_square_url`, `long`, `created_at`) VALUES('bernard', 'bernard', 1, '2009-04-07 09:38:37', 'sikelianos', '3415499602', 'Uploaded with Flickup on iPhone.', '34.419769', 'http://farm4.static.flickr.com/3628/3415499602_662d9a41e3_s.jpg', '-119.689285', '2009-04-07 09:38:37')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 77ms (DB: 5) | 302 Found [http://localhost/maps/sb/spots]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:38:38) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.5ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 120ms (View: 57, DB: 4) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:38:55) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 80ms (View: 31, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 02:39:00) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/in/photostream/"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 957ms (View: 170, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (4.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-07 02:39:04) [POST]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"coastroute", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415667070", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3602/3415667070_d0880eb22f_s.jpg", "lat"=>"34.419769", "long"=>"-119.689285"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA="}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSpot Exists (0.3ms)[0m   [0mSELECT `spots`.id FROM `spots` WHERE (permalink = 'coastroute' and map_id = 1) LIMIT 1[0m
+  [4;36;1mSpot Create (0.3ms)[0m   [0;1mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `flickr_user`, `flickr_photo_id`, `description`, `lat`, `flickr_square_url`, `long`, `created_at`) VALUES('coastroute', 'coastroute', 1, '2009-04-07 09:39:04', 'sikelianos', '3415667070', 'Uploaded with Flickup on iPhone.', '34.419769', 'http://farm4.static.flickr.com/3602/3415667070_d0880eb22f_s.jpg', '-119.689285', '2009-04-07 09:39:04')[0m
+  [4;35;1mSQL (40.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 114ms (DB: 49) | 302 Found [http://localhost/maps/sb/spots]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:39:04) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 74ms (View: 11, DB: 4) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:39:09) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 78ms (View: 12, DB: 5) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:39:15) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 75ms (View: 12, DB: 4) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:39:49) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 80ms (View: 31, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 02:39:53) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415737924/in/photostream/"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 880ms (View: 183, DB: 3) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-07 02:39:55) [POST]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"lonelybusstop", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415737924", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3560/3415737924_14db7b1d2c_s.jpg", "lat"=>"34.421174", "long"=>"-119.607596"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA="}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSpot Exists (0.3ms)[0m   [0mSELECT `spots`.id FROM `spots` WHERE (permalink = 'lonelybusstop' and map_id = 1) LIMIT 1[0m
+  [4;36;1mSpot Create (0.4ms)[0m   [0;1mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `flickr_user`, `flickr_photo_id`, `description`, `lat`, `flickr_square_url`, `long`, `created_at`) VALUES('lonelybusstop', 'lonelybusstop', 1, '2009-04-07 09:39:55', 'sikelianos', '3415737924', 'Uploaded with Flickup on iPhone.', '34.421174', 'http://farm4.static.flickr.com/3560/3415737924_14db7b1d2c_s.jpg', '-119.607596', '2009-04-07 09:39:55')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 73ms (DB: 6) | 302 Found [http://localhost/maps/sb/spots]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:39:55) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 179ms (View: 116, DB: 4) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:40:08) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Completed in 81ms (View: 30, DB: 5) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 02:43:15) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"coastroute"}
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.3ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Spot with ID=coastroute):
+  app/controllers/spots_controller.rb:39:in `edit'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (205.5ms)
+Rendered rescues/_request_and_response (4.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#index (for 127.0.0.1 at 2009-04-07 02:43:28) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT * FROM `spots` [0m
+Rendering template within layouts/application
+Rendering spots/index
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+
+ActionView::TemplateError (undefined method `flickr_url' for #<Spot:0x23463e8>) on line #30 of app/views/spots/index.html.haml:
+27:       %td
+28:         = h spot.flickr_url
+29:       %td
+30:         = link_to 'Show', spot
+31:         = link_to 'Edit', edit_spot_path(spot)
+32:         = link_to 'Destroy', spot, :confirm => 'Are you sure?', :method => :delete
+33: 
+
+    app/views/spots/index.html.haml:30:in `_run_haml_app47views47spots47index46html46haml'
+    app/views/spots/index.html.haml:13:in `each'
+    app/views/spots/index.html.haml:13:in `_run_haml_app47views47spots47index46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/spots_controller.rb:8:in `index'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (237.5ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:43:33) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;36;1mSpot Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 77ms (View: 14, DB: 4) | 200 OK [http://localhost/maps/sb/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:46:27) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (134.9ms)
+Completed in 212ms (View: 163, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:46:56) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (24.1ms)
+Completed in 81ms (View: 32, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:47:43) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (23.9ms)
+Completed in 81ms (View: 32, DB: 5) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:48:43) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (edit_map_spot_url failed to generate from {:controller=>"spots", :action=>"edit", :map_id=>#<Map id: 1, name: "sb", permalink: "sb", description: "spots around santa barbara", created_at: "2009-04-07 09:37:49", updated_at: "2009-04-07 09:37:49">, :id=>nil}, expected: {:controller=>"spots", :action=>"edit"}, diff: {:map_id=>#<Map id: 1, name: "sb", permalink: "sb", description: "spots around santa barbara", created_at: "2009-04-07 09:37:49", updated_at: "2009-04-07 09:37:49">, :id=>nil}) on line #17 of app/views/maps/show.html.haml:
+14:         %li
+15:           = link_to(spot_thumbnail(spot), "#", :class => "image")
+16:           = link_to(spot.name, edit_map_spot_path(@map, @spot))
+17: 
+18:   %div
+19:     %h2 options
+20:     %ul.options
+
+    (eval):16:in `edit_map_spot_path'
+    app/views/maps/show.html.haml:17:in `_run_haml_app47views47maps47show46html46haml'
+    app/views/maps/show.html.haml:13:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (162.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:49:18) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (edit_map_spot_url failed to generate from {:controller=>"spots", :action=>"edit", :map_id=>#<Map id: 1, name: "sb", permalink: "sb", description: "spots around santa barbara", created_at: "2009-04-07 09:37:49", updated_at: "2009-04-07 09:37:49">, :id=>nil}, expected: {:controller=>"spots", :action=>"edit"}, diff: {:map_id=>#<Map id: 1, name: "sb", permalink: "sb", description: "spots around santa barbara", created_at: "2009-04-07 09:37:49", updated_at: "2009-04-07 09:37:49">, :id=>nil}) on line #17 of app/views/maps/show.html.haml:
+14:         %li
+15:           = link_to(spot_thumbnail(spot), "#", :class => "image")
+16:           = link_to(spot.name, edit_map_spot_path(@map, @spot))
+17: 
+18:   %div
+19:     %h2 options
+20:     %ul.options
+
+    (eval):16:in `edit_map_spot_path'
+    app/views/maps/show.html.haml:17:in `_run_haml_app47views47maps47show46html46haml'
+    app/views/maps/show.html.haml:13:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (249.5ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:49:33) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 93ms (View: 30, DB: 6) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 02:49:37) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"bernard"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (4.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Spot with ID=bernard):
+  app/controllers/spots_controller.rb:39:in `edit'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (203.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 02:50:19) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"bernard"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (7.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'bernard') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (25.5ms)
+Completed in 99ms (View: 41, DB: 12) | 200 OK [http://localhost/maps/sb/spots/bernard/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#bernard (for 127.0.0.1 at 2009-04-07 02:50:32) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415499602/", "id"=>"fetch_flickr_photo_info"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to bernard. Actions: create, destroy, edit, fetch_flickr_photo_info, index, new, show, and update):
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 02:50:46) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"coastroute"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (29.9ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'coastroute') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (26.6ms)
+Completed in 114ms (View: 34, DB: 34) | 200 OK [http://localhost/maps/sb/spots/coastroute/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#coastroute (for 127.0.0.1 at 2009-04-07 02:50:50) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/", "id"=>"fetch_flickr_photo_info"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to coastroute. Actions: create, destroy, edit, fetch_flickr_photo_info, index, new, show, and update):
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#coastroute (for 127.0.0.1 at 2009-04-07 02:51:01) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/", "id"=>"fetch_flickr_photo_info"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to coastroute. Actions: create, destroy, edit, fetch_flickr_photo_info, index, new, show, and update):
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#coastroute (for 127.0.0.1 at 2009-04-07 02:51:09) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/", "id"=>"fetch_flickr_photo_info"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to coastroute. Actions: create, destroy, edit, fetch_flickr_photo_info, index, new, show, and update):
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 02:52:13) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"coastroute"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'coastroute') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (37.3ms)
+Completed in 102ms (View: 52, DB: 4) | 200 OK [http://localhost/maps/sb/spots/coastroute/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#coastroute (for 127.0.0.1 at 2009-04-07 02:52:21) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/", "id"=>"fetch_flickr_photo_info"}
+  [4;36;1mMap Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (24.6ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to coastroute. Actions: create, destroy, edit, fetch_flickr_photo_info, index, new, show, and update):
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 02:53:27) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"coastroute"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'coastroute') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (37.6ms)
+Completed in 104ms (View: 52, DB: 5) | 200 OK [http://localhost/maps/sb/spots/coastroute/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#2 (for 127.0.0.1 at 2009-04-07 02:53:35) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/", "id"=>"fetch_flickr_photo_info"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, fetch_flickr_photo_info, index, new, show, and update):
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:54:05) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (34.5ms)
+Completed in 98ms (View: 49, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 02:54:12) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/in/photostream/"}
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 1368ms (View: 259, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:54:38) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (34.9ms)
+Completed in 106ms (View: 57, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 02:55:01) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (35.5ms)
+Completed in 99ms (View: 50, DB: 5) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 02:55:08) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/in/photostream/"}
+  [4;35;1mMap Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.5ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 988ms (View: 207, DB: 3) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#2 (for 127.0.0.1 at 2009-04-07 02:55:18) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/", "id"=>"fetch_flickr_photo_info"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, fetch_flickr_photo_info, index, new, show, and update):
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 02:55:22) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"coastroute"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.9ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'coastroute') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (26.0ms)
+Completed in 181ms (View: 34, DB: 5) | 200 OK [http://localhost/maps/sb/spots/coastroute/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 02:55:27) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 803ms (View: 185, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 02:55:39) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/in/photostream/"}
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 1000ms (View: 298, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#update (for 127.0.0.1 at 2009-04-07 02:55:42) [PUT]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"coastroute", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415667070", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3602/3415667070_d0880eb22f_s.jpg", "lat"=>"34.420889", "long"=>"-119.606823"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "id"=>"coastroute"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'coastroute') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSpot Update (25.5ms)[0m   [0;1mUPDATE `spots` SET `lat` = '34.420889', `long` = '-119.606823', `updated_at` = '2009-04-07 09:55:42' WHERE `id` = 2[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/spots/coastroute
+Completed in 94ms (DB: 31) | 302 Found [http://localhost/maps/sb/spots/coastroute]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#show (for 127.0.0.1 at 2009-04-07 02:55:42) [GET]
+  Parameters: {"id"=>"coastroute"}
+  [4;36;1mMap Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'coastroute') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/show
+
+ActionView::TemplateError (undefined method `flickr_url' for #<Spot:0x227b24c>) on line #29 of app/views/spots/show.html.haml:
+26:   %b
+27:     Flickr url:
+28:   = h @spot.flickr_url
+29: = link_to 'Edit', edit_spot_path(@spot)
+30: |
+31: = link_to 'Back', spots_path
+
+    app/views/spots/show.html.haml:29:in `_run_haml_app47views47spots47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/spots_controller.rb:23:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (137.3ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#update (for 127.0.0.1 at 2009-04-07 02:56:15) [PUT]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"coastroute", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415667070", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3602/3415667070_d0880eb22f_s.jpg", "lat"=>"34.420889", "long"=>"-119.606823"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "id"=>"coastroute"}
+  [4;36;1mMap Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'coastroute') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 68ms (DB: 5) | 302 Found [http://localhost/maps/sb/spots/coastroute]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:56:15) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 183ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 02:56:27) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"coastroute"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'coastroute') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (35.9ms)
+Completed in 100ms (View: 50, DB: 4) | 200 OK [http://localhost/maps/sb/spots/coastroute/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 02:57:11) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415667070/in/photostream/"}
+  [4;36;1mMap Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (19.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 915ms (View: 175, DB: 21) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#update (for 127.0.0.1 at 2009-04-07 02:57:15) [PUT]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"coastroute", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415667070", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3602/3415667070_d0880eb22f_s.jpg", "lat"=>"34.420929", "long"=>"-119.606909"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "id"=>"coastroute"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'coastroute') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSpot Update (0.4ms)[0m   [0mUPDATE `spots` SET `lat` = '34.420929', `long` = '-119.606909', `updated_at` = '2009-04-07 09:57:15' WHERE `id` = 2[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 71ms (DB: 5) | 302 Found [http://localhost/maps/sb/spots/coastroute]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:57:16) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;36;1mSpot Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 77ms (View: 15, DB: 4) | 200 OK [http://localhost/maps/sb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 02:58:57) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"lonelybusstop"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.3ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'lonelybusstop') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (24.5ms)
+Completed in 83ms (View: 32, DB: 4) | 200 OK [http://localhost/maps/sb/spots/lonelybusstop/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 02:59:03) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415737924/in/photostream/"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 981ms (View: 214, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#update (for 127.0.0.1 at 2009-04-07 02:59:06) [PUT]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"lonelybusstop", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415737924", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3560/3415737924_14db7b1d2c_s.jpg", "lat"=>"34.405581", "long"=>"-119.536678"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "id"=>"lonelybusstop"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.3ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'lonelybusstop') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSpot Update (0.8ms)[0m   [0;1mUPDATE `spots` SET `lat` = '34.405581', `long` = '-119.536678', `updated_at` = '2009-04-07 09:59:06' WHERE `id` = 3[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 72ms (DB: 6) | 302 Found [http://localhost/maps/sb/spots/lonelybusstop]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 02:59:07) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 81ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 03:03:10) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"lonelybusstop"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'lonelybusstop') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (24.8ms)
+Completed in 84ms (View: 33, DB: 5) | 200 OK [http://localhost/maps/sb/spots/lonelybusstop/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 03:03:15) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415737924/"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 873ms (View: 186, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#update (for 127.0.0.1 at 2009-04-07 03:03:19) [PUT]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"lonelybusstop", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415737924", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3560/3415737924_14db7b1d2c_s.jpg", "lat"=>"34.405316", "long"=>"-119.535305"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "id"=>"lonelybusstop"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'lonelybusstop') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSpot Update (0.4ms)[0m   [0mUPDATE `spots` SET `lat` = '34.405316', `long` = '-119.535305', `updated_at` = '2009-04-07 10:03:19' WHERE `id` = 3[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 73ms (DB: 5) | 302 Found [http://localhost/maps/sb/spots/lonelybusstop]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 03:03:19) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 79ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/sb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 03:03:46) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (9.2ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (23.9ms)
+Completed in 90ms (View: 32, DB: 13) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 03:03:49) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3414980173/in/photostream/?rotated=1&cb=1239098392975"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 967ms (View: 188, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-07 03:03:53) [POST]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"carplibrary", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3414980173", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3612/3414980173_0e2bb374e9_s.jpg", "lat"=>"34.405295", "long"=>"-119.535477"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA="}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSpot Exists (0.4ms)[0m   [0;1mSELECT `spots`.id FROM `spots` WHERE (permalink = 'carplibrary' and map_id = 1) LIMIT 1[0m
+  [4;35;1mSpot Create (0.3ms)[0m   [0mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `flickr_user`, `flickr_photo_id`, `description`, `lat`, `flickr_square_url`, `long`, `created_at`) VALUES('carplibrary', 'carplibrary', 1, '2009-04-07 10:03:53', 'sikelianos', '3414980173', 'Uploaded with Flickup on iPhone.', '34.405295', 'http://farm4.static.flickr.com/3612/3414980173_0e2bb374e9_s.jpg', '-119.535477', '2009-04-07 10:03:53')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 74ms (DB: 6) | 302 Found [http://localhost/maps/sb/spots]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 03:03:53) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;35;1mMap Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;36;1mSpot Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 178ms (View: 17, DB: 4) | 200 OK [http://localhost/maps/sb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-07 03:04:34) [GET]
+  Parameters: {"map_id"=>"sb", "id"=>"carplibrary"}
+  [4;35;1mMap Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.9ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (1.2ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'carplibrary') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (26.8ms)
+Completed in 91ms (View: 35, DB: 7) | 200 OK [http://localhost/maps/sb/spots/carplibrary/edit]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 03:04:37) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3414980173/"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 875ms (View: 196, DB: 3) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#update (for 127.0.0.1 at 2009-04-07 03:04:39) [PUT]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"carplibrary", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3414980173", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3612/3414980173_0e2bb374e9_s.jpg", "lat"=>"34.397521", "long"=>"-119.516841"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "id"=>"carplibrary"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.3ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'carplibrary') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSpot Update (0.3ms)[0m   [0;1mUPDATE `spots` SET `lat` = '34.397521', `long` = '-119.516841', `updated_at` = '2009-04-07 10:04:39' WHERE `id` = 4[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 74ms (DB: 6) | 302 Found [http://localhost/maps/sb/spots/carplibrary]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 03:04:39) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 79ms (View: 16, DB: 4) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 03:04:56) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (23.4ms)
+Completed in 80ms (View: 31, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 03:05:02) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415117023/in/photostream/"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 833ms (View: 185, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (4.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-07 03:05:04) [POST]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"thespot", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415117023", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3347/3415117023_8038faf7ff_s.jpg", "lat"=>"34.395489", "long"=>"-119.523074"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA="}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSpot Exists (0.3ms)[0m   [0mSELECT `spots`.id FROM `spots` WHERE (permalink = 'thespot' and map_id = 1) LIMIT 1[0m
+  [4;36;1mSpot Create (0.3ms)[0m   [0;1mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `flickr_user`, `flickr_photo_id`, `description`, `lat`, `flickr_square_url`, `long`, `created_at`) VALUES('thespot', 'thespot', 1, '2009-04-07 10:05:04', 'sikelianos', '3415117023', 'Uploaded with Flickup on iPhone.', '34.395489', 'http://farm4.static.flickr.com/3347/3415117023_8038faf7ff_s.jpg', '-119.523074', '2009-04-07 10:05:04')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 75ms (DB: 10) | 302 Found [http://localhost/maps/sb/spots]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 03:05:04) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 203ms (View: 137, DB: 5) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 03:05:22) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (23.8ms)
+Completed in 82ms (View: 32, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 03:05:25) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3416061402/in/photostream/"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 916ms (View: 193, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-07 03:05:28) [POST]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"lagoon", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3416061402", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3627/3416061402_30fc2606ac_s.jpg", "lat"=>"34.419761", "long"=>"-119.66168"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA="}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSpot Exists (0.4ms)[0m   [0mSELECT `spots`.id FROM `spots` WHERE (permalink = 'lagoon' and map_id = 1) LIMIT 1[0m
+  [4;36;1mSpot Create (0.4ms)[0m   [0;1mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `flickr_user`, `flickr_photo_id`, `description`, `lat`, `flickr_square_url`, `long`, `created_at`) VALUES('lagoon', 'lagoon', 1, '2009-04-07 10:05:28', 'sikelianos', '3416061402', 'Uploaded with Flickup on iPhone.', '34.419761', 'http://farm4.static.flickr.com/3627/3416061402_30fc2606ac_s.jpg', '-119.66168', '2009-04-07 10:05:28')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 75ms (DB: 6) | 302 Found [http://localhost/maps/sb/spots]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 03:05:28) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 84ms (View: 20, DB: 5) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-07 03:05:42) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (3.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (24.2ms)
+Completed in 83ms (View: 32, DB: 6) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-07 03:05:46) [POST]
+  Parameters: {"authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA=", "url"=>"http://www.flickr.com/photos/sikelianos/3415313007/in/photostream/"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 948ms (View: 198, DB: 3) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-07 03:05:48) [POST]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"iraq", "flickr_user"=>"sikelianos", "flickr_photo_id"=>"3415313007", "description"=>"Uploaded with Flickup on iPhone.", "flickr_square_url"=>"http://farm4.static.flickr.com/3628/3415313007_4e096407b6_s.jpg", "lat"=>"34.411625", "long"=>"-119.689114"}, "authenticity_token"=>"qeVffjnAqxLhBSAmhml6ms0U5jc4BxRMEPUQlQxJKfA="}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSpot Exists (0.3ms)[0m   [0mSELECT `spots`.id FROM `spots` WHERE (permalink = 'iraq' and map_id = 1) LIMIT 1[0m
+  [4;36;1mSpot Create (0.3ms)[0m   [0;1mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `flickr_user`, `flickr_photo_id`, `description`, `lat`, `flickr_square_url`, `long`, `created_at`) VALUES('iraq', 'iraq', 1, '2009-04-07 10:05:48', 'sikelianos', '3415313007', 'Uploaded with Flickup on iPhone.', '34.411625', 'http://farm4.static.flickr.com/3628/3415313007_4e096407b6_s.jpg', '-119.689114', '2009-04-07 10:05:48')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 76ms (DB: 5) | 302 Found [http://localhost/maps/sb/spots]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-07 03:05:48) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 85ms (View: 22, DB: 5) | 200 OK [http://localhost/maps/sb]

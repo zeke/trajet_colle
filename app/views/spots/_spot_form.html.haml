@@ -1,0 +1,32 @@
+- form_remote_tag(:url => "/spots/fetch_flickr_photo_info", :html => {:id => "temp"}) do
+  %div
+    = label_tag :url, "Flickr Photo URL"
+    = text_field_tag :url, @spot.flickr_photo_url, :class => "text"
+    
+  %div= submit_tag "fetch"
+
+
+- form_for([@map, @spot]) do |f|
+  = f.error_messages
+  
+  %div
+    = f.label :name
+    = f.text_field :name, :class => "text title"
+  
+  %div
+    = f.label :description
+    = f.text_area :description, :class => "text"
+  
+  %div
+    = f.label :lat, "Latitude"
+    = f.text_field :lat, :class => "text"
+  
+  %div
+    = f.label :long, "Longitude"
+    = f.text_field :long, :class => "text"
+    
+  %div
+    = f.hidden_field :flickr_photo_id
+    = f.hidden_field :flickr_user
+    = f.hidden_field :flickr_square_url
+    = f.submit 'Save this Spot'
