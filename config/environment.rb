@@ -25,6 +25,8 @@ Rails::Initializer.run do |config|
   config.gem "mechanize" # includes nokogiri, i think.
   config.gem "zeke-monkey_patches", :lib => "monkey_patches", :version => '0.1.6'
   config.gem "chriseppstein-compass", :lib => "compass"
+  config.gem 'rubaidh-google_analytics', :lib => 'rubaidh/google_analytics', :source => 'http://gems.github.com'
+  
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
@@ -50,3 +52,5 @@ require 'nokogiri'
 require 'open-uri'
 
 GOOGLE_APPLICATION_ID = "ABQIAAAA3HdfrnxFAPWyY-aiJUxmqRTJQa0g3IQ9GZqIMmInSLzwtGDKaBQ0KYLwBEKSM7F9gCevcsIf6WPuIQ"
+
+Rubaidh::GoogleAnalytics.tracker_id = 'UA-81559-8'
