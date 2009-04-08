@@ -51,6 +51,4 @@ end
 require 'nokogiri'
 require 'open-uri'
 
-GOOGLE_APPLICATION_ID = "ABQIAAAA3HdfrnxFAPWyY-aiJUxmqRTJQa0g3IQ9GZqIMmInSLzwtGDKaBQ0KYLwBEKSM7F9gCevcsIf6WPuIQ"
-
 Rubaidh::GoogleAnalytics.tracker_id = 'UA-81559-8'
