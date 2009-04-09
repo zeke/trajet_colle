@@ -40,6 +40,14 @@ module ApplicationHelper
    output
  end
  
+ def info_pair(label, value)
+   return nil if value.blank?
+   label = content_tag(:span, "#{label}:").to_s
+   label = "thig"
+   value = "thog"
+   content_tag(:span, [label, value].join(" "), :class => "info_pair")
+ end
+ 
  def flash_messages 
    flash.keys.map { |key| content_tag( :div, flash[key], :class => "flash_message #{key}" ) if flash[key] }.join
  end

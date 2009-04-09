@@ -8,32 +8,30 @@ module SpotsHelper
     long = location.split(", ").last rescue nil
     flickr_photo_id = url.scan(/photos\/\w*\/(\d+)/).first.first rescue nil
     flickr_user = url.scan(/photos\/(\w*)/).first.first rescue nil
-    flickr_square_url = get_square_url(flickr_photo_id)
-
+    
     if lat.blank? || long.blank?
       page.call('alert', "This flickr photo doesn't appear to be geotagged.") and return
     end
     
-    %w(name lat long flickr_photo_id flickr_user flickr_square_url).each do |input|
+    sizes = flickr.photos.getSizes(:photo_id => flickr_photo_id)
+    
+    flickr_square_url = sizes.find {|s| s.label == 'Square' }.source
+    flickr_medium_url = sizes.find {|s| s.label == 'Medium' }.source
+    width = sizes.find {|s| s.label == 'Original' }.width
+    height = sizes.find {|s| s.label == 'Original' }.height
+    
+    %w(name lat long flickr_photo_id flickr_user flickr_square_url flickr_medium_url width height).each do |input|
       page.call 'update_input', "spot_#{input}", eval(input)
     end
     
     %w(description).each do |input|
       page.call 'update_textarea', "spot_#{input}", eval(input)
     end
+        
+    page.replace_html 'metadata', :partial => 'spot_metadata'
+
   end
-  
-  def get_square_url(flickr_photo_id)
-    # info = flickr.photos.getInfo(:photo_id => flickr_photo_id)
-    sizes = flickr.photos.getSizes(:photo_id => flickr_photo_id)
-    sizes.find {|s| s.label == 'Square' }.source
-  end
-  
-  def get_medium_url(flickr_photo_id)
-    sizes = flickr.photos.getSizes(:photo_id => flickr_photo_id)
-    sizes.find {|s| s.label == 'Medium' }.source
-  end
-  
+
   def spot_thumbnail(spot, options={})
     options[:size] ||= 40
     image_tag(spot.flickr_square_url, :width => options[:size], :height => options[:size], :class => "thumb")
