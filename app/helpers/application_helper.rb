@@ -10,7 +10,7 @@ module ApplicationHelper
    # raise request.path.split("/").remove_first_element.to_yaml
    o = [link_to("trajet collé", root_path)]
    if params[:controller] == "maps"
-     o << link_to("maps", root_path) 
+     o << link_to("maps", maps_path) 
    end
    o << link_to(@map.permalink, @map) if @map && !@map.new_record?
    o << link_to("spots", root_path) if params[:controller] == "spots"
