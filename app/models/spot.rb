@@ -1,11 +1,19 @@
 class Spot < ActiveRecord::Base
 
-  belongs_to :map
+  validates_presence_of :name, :lat, :long
+  validates_format_of :name, :with => /^\w+$/i, :message => "can only contain letters and numbers."
+  validates_numericality_of :lat, :long # Maybe this will buy some relief from robots?
+  validates_uniqueness_of :name, :scope => :map_id
+
   has_permalink :name, :scope => :map_id
   
+  belongs_to :map
+  
   def validate
-    %w(spot map static index)
-    # Watch for stopwords:
+    stop_words = %w(spot map static index)
+    if stop_words.include?(self.name.downcase)
+      errors.add_to_base "Sorry, you can't name your spot '#{self.name}'. That word is reserved by the dictatorial regime."
+    end
   end
   
   def to_param; self.permalink; end
@@ -18,6 +26,11 @@ class Spot < ActiveRecord::Base
   def flickr_map_url
     return if self.new_record?
     "http://www.flickr.com/photos/#{flickr_user}/#{flickr_photo_id}/map/"
+  end
+  
+  def height_for_width(w)
+    ratio = w.to_f / width.to_f
+    (height.to_f * ratio).to_i
   end
     
 end

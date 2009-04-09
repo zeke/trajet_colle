@@ -1,14 +1,67 @@
 %div.column
 
   %p
-    Trajet Collé 
-    %em (tra-zhay co-lay),
-    meaning 'pasted trip', is an ongoing collaborative experiment in printmaking, 
-    graffiti, mapmaking, and community space.
+    Trajet Collé is an anonymous and freely editable system. 
+    There is no signup process. Any person can build maps or add to existing ones.
+    To create your own map, follow these instructions..
+    
+  %h2 1. Create a Map at trajetcolle.com
+  %p
+    Before you go out and start marking spots, you'll first want to create a map on the site. 
+    That way you know someone hasn't already used the map name you have in mind. 
+    = link_to("Click here to create a map.", new_map_path)
+
+  %h2 2. Print some Imagery    
+  %p
+    Print out a bunch of copies of the 
+    = link_to("bicycle image", "/downloads/trajet_colle_velo.pdf")
+    or better yet, create your own imagery. Get yourself some tape, spray adhesive, or a 
+    = link_to("wheatpasting setup.", "http://en.wikipedia.org/wiki/Wheatpaste")
+    
+  %h2 3. Hit the Streets
+  %p
+    Carry copies of your imagery when you're out on the town. Keep some in your backpack, your trunk, etc.
+    When you find a spot where you want to post one of your images,
+    think of a good name for the spot, and write the URL-to-be of your spot 
+    <strong>on the image itself</strong> in this format: 
+    <strong>trajetcolle.com/<em>yourmapname</em>/<em>yourspotname</em></strong>. 
+    Here are some example URLs..
+    
+  %ul
+    %li http://trajetcolle.com/mymap/supercoolspot
+    %li http://trajetcolle.com/downtown/payphone45
+    %li http://trajetcolle.com/swimmingholes/beavercreek
+    
+  %p Once you've got the URL written on your image, stick it on the wall!
+
+  %h2 4. Document the Spot with a Photo
+  %p
+    Take a photo of the spot (you've got a camera-phone, right?), then upload or email the image to your
+    Flickr account (you've got one of those too, right?). If you've got an iPhone, your best option is the
+    = link_to("Flickup app", "http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=284953492&mt=8")
+    , which automatically geotags your photos and uploads them right to your Flickr account. If you don't have 
+    an iPhone but can email images with your phone, find out what your
+    = link_to("Flickr uploader email address", "http://www.flickr.com/account/uploadbyemail/")
+    is and upload the photo that way.
+    
+  %h2 5. Geotag your Image
+  %p
+    If you don't use Flickup (or some other fancy-pants application), you'll need to <em>geotag</em>
+    your image after uploading it. Go the photo's page on Flickr and click the 'Add to Your Map' link in the bottom right. 
+    This will present you with a map and a crosshair, so you can mark your image's exact latitude/longitude.
+    
+  %h2 6. Add your Spot(s) to your Map
+  %p
+    Come back to trajetcolle.com, click on the map you created, and click 'Add a Spot'. 
+    To add a new spot to your map, you simply paste in the Flickr Photo URL, and trajetcolle.com
+    will automatically gather the title, description, and location from the photo data on flickr.
     
   %p
-    The project began in my printmaking class: Our assignment was 
-    to post our screenprinted images in a manner that raised awareness of the divide 
-    between public and private space. This is one of my prints..
+    Got all that? Get started by 
+    = link_to("creating a map.", new_map_path)
     
-  = image_tag("velo_print.png")
+    
+    
+    
+    
+    

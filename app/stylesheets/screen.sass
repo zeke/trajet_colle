@@ -11,19 +11,23 @@
 !header_color = #000
 !link_color = #000
 !border_color = #000
+!red = #990000
 
 !light_text = #5a3910
 
 body
   :background white url(../images/paper.jpg) repeat
   :color black
-  :margin 20px
+  :margin 20px 20px 80px 20px
   :font-family Georgia, serif
 
 hr
   :color black
   :background-color black
   :border-color black
+
+.light
+  :color = !light_text
 
 div
   &.header
@@ -49,7 +53,16 @@ div
     :width 500px
     p
       :font-size 1.1em
-      :margin 10px
+      :margin 0 10px 10px 10px
+    ul
+      :margin 0 0 10px 30px
+      li
+        :font-size 1.1em
+    h2
+      :margin 15px 0 2px 10px
+      :color = !red    
+    a
+      :text-decoration underline
   &.thirds
     :margin-top 10px
     :float none
@@ -61,8 +74,11 @@ div
       :margin-right 10px
       :border-top 5px solid black
       :border-color = !header_color
+    h2
+      :margin-left 0
 
 h1, h2, h3, h4, h5, h6
+  :margin-left 10px
   :color = !header_color
   :font-family Georgia, serif
 
@@ -72,12 +88,12 @@ a
   &:visited
     :color = !header_color
   &:hover
+    :color = !red
     :text-decoration line-through
 
   
 h1
   :font-size 2.4em
-  :margin-left 10px
   a
     :padding 5px 0px
           
@@ -86,12 +102,20 @@ h2
   
 a, a.visited, a.active, a.hover
   :color = !link_color
+  
+p.error
+  :color = !red
+  :border-color = !red
+  :background-color transparent
 
 form
+  :width 500px
   div
     :padding 5px 10px
     input.text
       :margin 1px
+      :width 100%
+      :font-family "Lucida Grande", Verdana
     label
       :display block
       :clear both
@@ -99,26 +123,51 @@ form
       :color = !light_text
     textarea
       :margin 0
+      :width 100%
+      :font-family "Lucida Grande", Verdana
+      :font-size 1em
       
-div.google_map
-  :height 400px
+      
+div
+  &.google_map
+    :height 450px
+  &.map
+    :float left
+    :margin 20px 10px
+    :display block
+    :width 200px
+    h2
+      :margin 0
+    p
+      :margin 0
+  &.bubble_content
+    :width 200px
+    :padding 5px
+    a
+      :color = !red
+      :font-size .9em
   
-img.thumb
-  :border 1px solid white
-  :border-color = !border_color
+img
+  &.thumb
+    :border 1px solid white
+  &.map_thumbnail
+    :border-bottom 5px solid black
   
 ul.spot_list
   :margin 0
+  :float none
+  :clear both
+  :overflow hidden
   li
+    :width 120px
+    :float left
     :list-style-type none
     :vertical-align middle
-    :float none
-    :clear both
-    :overflow hidden
     :margin 0 0 5px 0
     a
+      :font-size 1.2em
       :float left
       :display block
-      :margin 15px 0px 0px 10px
+      :margin 10px 0px 0px 10px
       &.image
         :margin 0

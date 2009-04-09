@@ -6995,3 +6995,2921 @@ Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 
   [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
 Rendered spots/_spot_metadata (1.7ms)
 Completed in 918ms (View: 248, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-08 21:57:18) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 78ms (View: 66, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 21:57:21) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 55ms (View: 44, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#static (for 127.0.0.1 at 2009-04-08 21:57:26) [GET]
+  Parameters: {"id"=>"how"}
+
+ActionController::UnknownAction (No action responded to static. Actions: how and index):
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 21:57:52) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 21:57:54) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 21:57:59) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (14.6ms)
+Completed in 228ms (View: 133, DB: 3) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-08 21:58:02) [GET]
+  [4;36;1mMap Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (6.2ms)
+Completed in 96ms (View: 66, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-08 21:58:59) [GET]
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.3ms)
+Completed in 48ms (View: 16, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-08 21:59:51) [GET]
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.2ms)
+Completed in 46ms (View: 16, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-08 22:00:04) [GET]
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.2ms)
+Completed in 47ms (View: 17, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 22:11:42) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (8.7ms)
+Completed in 167ms (View: 15, DB: 3) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 22:11:45) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 204ms (View: 86, DB: 6) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:11:50) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+
+ActionView::TemplateError (undefined method `lag' for #<Spot:0x21c3d40>) on line #31 of app/views/spots/_spot_form.html.haml:
+28:     
+29:   %div
+30:     = f.hidden_field :lag
+31:     = f.hidden_field :long
+32:     = f.hidden_field :flickr_photo_id
+33:     = f.hidden_field :flickr_user
+34:     = f.hidden_field :flickr_square_url
+
+    app/views/spots/_spot_form.html.haml:31:in `_run_haml_app47views47spots47_spot_form46html46haml_locals_object_spot_form'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:165:in `call'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:165:in `form_for'
+    haml (2.1.0) lib/haml/helpers.rb:450:in `call'
+    haml (2.1.0) lib/haml/helpers.rb:450:in `haml_bind_proc'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/spots/_spot_form.html.haml:10:in `_run_haml_app47views47spots47_spot_form46html46haml_locals_object_spot_form'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    haml (2.1.0) lib/haml/helpers.rb:57:in `non_haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    app/views/spots/new.html.haml:1:in `_run_haml_app47views47spots47new46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/spots_controller.rb:32:in `new'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (283.0ms)
+Rendered rescues/_request_and_response (4.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:12:12) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (37.3ms)
+Completed in 103ms (View: 52, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:12:23) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3421772479/in/set-72157616390243351/"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_geotag_errors (3.8ms)
+Completed in 853ms (View: 19, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:13:50) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.9ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (18.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (41.4ms)
+Completed in 123ms (View: 53, DB: 21) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:13:53) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3421772479/in/set-72157616390243351/"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_geotag_errors (1.0ms)
+Completed in 792ms (View: 6, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:14:33) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (9.7ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (25.4ms)
+Completed in 96ms (View: 36, DB: 12) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:14:35) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/YOUR_FLICKR_USERNAME/PHOTO_ID/"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+
+OpenURI::HTTPError (404 Not Found):
+  /usr/local/lib/ruby/1.8/open-uri.rb:278:in `open_http'
+  /usr/local/lib/ruby/1.8/open-uri.rb:617:in `buffer_open'
+  /usr/local/lib/ruby/1.8/open-uri.rb:164:in `open_loop'
+  /usr/local/lib/ruby/1.8/open-uri.rb:162:in `catch'
+  /usr/local/lib/ruby/1.8/open-uri.rb:162:in `open_loop'
+  /usr/local/lib/ruby/1.8/open-uri.rb:132:in `open_uri'
+  /usr/local/lib/ruby/1.8/open-uri.rb:519:in `open'
+  /usr/local/lib/ruby/1.8/open-uri.rb:30:in `open'
+  app/controllers/spots_controller.rb:16:in `fetch_flickr_photo_info'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (198.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:20:25) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/YOUR_FLICKR_USERNAME/PHOTO_ID/"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (2.7ms)
+Completed in 664ms (View: 18, DB: 3) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:20:43) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (38.0ms)
+Completed in 200ms (View: 150, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:20:44) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/YOUR_FLICKR_USERNAME/PHOTO_ID/"}
+  [4;35;1mMap Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (3.2ms)
+Completed in 650ms (View: 12, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:20:56) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (24.3ms)
+Completed in 83ms (View: 33, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:20:57) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/YOUR_FLICKR_USERNAME/PHOTO_ID/"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (3.0ms)
+Completed in 639ms (View: 12, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:21:08) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (36.9ms)
+Completed in 102ms (View: 52, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:21:10) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/YOUR_FLICKR_USERNAME/PHOTO_ID/"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (0.5ms)
+Completed in 608ms (View: 3, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:21:32) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/YOUR_FLICKR_USERNAME/PHOTO_ID/"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (0.5ms)
+Completed in 607ms (View: 3, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:22:23) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (23.8ms)
+Completed in 84ms (View: 32, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:22:24) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/YOUR_FLICKR_USERNAME/PHOTO_ID/"}
+  [4;36;1mMap Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (0.5ms)
+Completed in 611ms (View: 3, DB: 3) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:22:35) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (4.9ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (23.6ms)
+Completed in 88ms (View: 32, DB: 9) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:22:37) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/YOUR_FLICKR_USERNAME/PHOTO_ID/"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (0.5ms)
+Completed in 629ms (View: 3, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:23:08) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3421772479/in/set-72157616390243351/"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_geotag_error (4.0ms)
+Completed in 762ms (View: 15, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:29:41) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.7ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+
+ActionView::TemplateError (undefined method `country' for #<Spot:0x202f4ac>) on line #30 of app/views/spots/_spot_form.html.haml:
+27:     = f.hidden_field :flickr_medium_url
+28:     = f.hidden_field :width
+29:     = f.hidden_field :height
+30:     = f.hidden_field :country
+31:     = f.hidden_field :region
+32:     = f.hidden_field :county
+33:     = f.hidden_field :locality
+
+    app/views/spots/_spot_form.html.haml:30:in `_run_haml_app47views47spots47_spot_form46html46haml_locals_object_spot_form'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:165:in `call'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:165:in `form_for'
+    haml (2.1.0) lib/haml/helpers.rb:450:in `call'
+    haml (2.1.0) lib/haml/helpers.rb:450:in `haml_bind_proc'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/spots/_spot_form.html.haml:10:in `_run_haml_app47views47spots47_spot_form46html46haml_locals_object_spot_form'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    haml (2.1.0) lib/haml/helpers.rb:57:in `non_haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    app/views/spots/new.html.haml:1:in `_run_haml_app47views47spots47new46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/spots_controller.rb:36:in `new'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (184.5ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateMaps (20090330051648)
+Migrating to CreateSpots (20090330052400)
+Migrating to ChangeLatLongDatatypeOnMap (20090404232542)
+Migrating to ChangeFlickrFieldsOnSpot (20090405045808)
+Migrating to AddFlickrSquareUrlToSpots (20090405055946)
+Migrating to AddMoreFieldsToSpot (20090409010523)
+Migrating to AddEvenMoreFieldsToSpot (20090409044321)
+  [4;36;1mSQL (40.9ms)[0m   [0;1mALTER TABLE `spots` ADD `country` varchar(255)[0m
+  [4;35;1mSQL (6.9ms)[0m   [0mALTER TABLE `spots` ADD `region` varchar(255)[0m
+  [4;36;1mSQL (6.7ms)[0m   [0;1mALTER TABLE `spots` ADD `county` varchar(255)[0m
+  [4;35;1mSQL (50.1ms)[0m   [0mALTER TABLE `spots` ADD `locality` varchar(255)[0m
+  [4;36;1mSQL (14.3ms)[0m   [0;1mALTER TABLE `spots` ADD `neighbourhood` varchar(255)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090409044321')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `maps`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `maps`[0m
+  [4;36;1mSQL (2.4ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mdescribe `spots`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `spots`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:30:15) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (23.0ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (28.2ms)
+Completed in 113ms (View: 37, DB: 27) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:31:41) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (40.5ms)
+Completed in 107ms (View: 56, DB: 5) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:31:53) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3421772479/in/set-72157616390243351/"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_geotag_error (1.0ms)
+Completed in 835ms (View: 6, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:32:18) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3416061402/in/photostream/"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (21.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (3.0ms)
+Completed in 1455ms (View: 11, DB: 0) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:32:27) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3416061402/in/photostream/"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (0.6ms)
+Completed in 1261ms (View: 2, DB: 0) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:32:39) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (19.7ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (3.1ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (28.0ms)
+Completed in 107ms (View: 36, DB: 25) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:32:43) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3416061402/in/photostream/"}
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_url_error (0.6ms)
+Completed in 1459ms (View: 3, DB: 0) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 22:33:07) [GET]
+  Parameters: {"map_id"=>"sb"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (42.8ms)
+Completed in 109ms (View: 58, DB: 4) | 200 OK [http://localhost/maps/sb/spots/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:33:17) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3416061402/in/photostream/"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+
+NoMethodError (undefined method `neighbourhood' for #<FlickRaw::Response:0x253ade8>):
+  app/helpers/spots_helper.rb:39:in `populate_form_with_flickr_photo_info'
+  app/controllers/spots_controller.rb:18:in `__instance_exec0'
+  app/controllers/spots_controller.rb:18:in `fetch_flickr_photo_info'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (117.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 22:35:00) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3416061402/in/photostream/"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 1247ms (View: 447, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-08 22:35:10) [POST]
+  Parameters: {"map_id"=>"sb", "commit"=>"Save this Spot", "spot"=>{"name"=>"lagoon", "region"=>"California", "neighbourhood"=>"", "county"=>"Santa Barbara", "flickr_user"=>"sikelianos", "country"=>"United States", "flickr_photo_id"=>"3416061402", "description"=>"Uploaded with Flickup on iPhone.", "locality"=>"", "height"=>"1200", "flickr_medium_url"=>"http://farm4.static.flickr.com/3627/3416061402_30fc2606ac.jpg", "flickr_square_url"=>"http://farm4.static.flickr.com/3627/3416061402_30fc2606ac_s.jpg", "lat"=>"34.419761", "width"=>"1600", "long"=>"-119.66168"}, "authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM="}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSpot Exists (0.4ms)[0m   [0;1mSELECT `spots`.id FROM `spots` WHERE (permalink = 'lagoon' and map_id = 1) LIMIT 1[0m
+  [4;35;1mSpot Exists (0.2ms)[0m   [0mSELECT `spots`.id FROM `spots` WHERE (permalink = 'lagoon-2' and map_id = 1) LIMIT 1[0m
+  [4;36;1mSpot Create (0.3ms)[0m   [0;1mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `region`, `flickr_user`, `county`, `neighbourhood`, `flickr_photo_id`, `country`, `description`, `flickr_medium_url`, `height`, `locality`, `lat`, `flickr_square_url`, `long`, `created_at`, `width`) VALUES('lagoon', 'lagoon-2', 1, '2009-04-09 05:35:10', 'California', 'sikelianos', 'Santa Barbara', '', '3416061402', 'United States', 'Uploaded with Flickup on iPhone.', 'http://farm4.static.flickr.com/3627/3416061402_30fc2606ac.jpg', 1200, '', '34.419761', 'http://farm4.static.flickr.com/3627/3416061402_30fc2606ac_s.jpg', '-119.66168', '2009-04-09 05:35:10', 1600)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 84ms (DB: 6) | 302 Found [http://localhost/maps/sb/spots]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 22:35:10) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 92ms (View: 23, DB: 5) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 22:36:51) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSpot Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSpot Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+
+NoMethodError (undefined method `validate_uniqueness_of' for #<Class:0x24669f8>):
+  app/models/spot.rb:5
+  app/controllers/maps_controller.rb:13:in `show'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (154.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 22:37:01) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (17.5ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 1) [0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 109ms (View: 22, DB: 23) | 200 OK [http://localhost/maps/sb]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-08 22:37:17) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 22:37:22) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-08 23:15:06) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:15:09) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (8.4ms)
+Completed in 45ms (View: 15, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:28:58) [GET]
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+Completed in 42ms (View: 14, DB: 1) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:29:08) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 136ms (View: 124, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:30:01) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:30:14) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:31:16) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:32:09) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:32:28) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:32:42) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:32:57) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:33:14) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:33:20) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:34:11) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 20ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:34:18) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:34:31) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 154ms (View: 143, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:34:55) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 40ms (View: 29, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:35:09) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:35:16) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (3.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:35:24) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 3) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:35:56) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-08 23:36:00) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:36:03) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:37:01) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 42ms (View: 30, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:37:07) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:37:51) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 42ms (View: 29, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:39:34) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 47ms (View: 34, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#downloads to pdf (for 127.0.0.1 at 2009-04-08 23:39:37) [GET]
+  Parameters: {"id"=>"trajet_colle_velo"}
+
+ActionController::UnknownAction (No action responded to downloads. Actions: how and index):
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:39:46) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:41:21) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 112ms (View: 100, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-08 23:41:25) [GET]
+  [4;35;1mMap Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.3ms)
+Completed in 48ms (View: 18, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-08 23:42:30) [GET]
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.2ms)
+Completed in 47ms (View: 17, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:42:35) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 137ms (View: 124, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-08 23:42:39) [GET]
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.2ms)
+Completed in 47ms (View: 17, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#create (for 127.0.0.1 at 2009-04-08 23:42:50) [POST]
+  Parameters: {"commit"=>"Create Map", "authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "map"=>{"name"=>"pilot", "description"=>"thsi is a test"}}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMap Exists (0.2ms)[0m   [0;1mSELECT `maps`.id FROM `maps` WHERE (permalink = 'pilot') LIMIT 1[0m
+  [4;35;1mMap Exists (0.7ms)[0m   [0mSELECT `maps`.id FROM `maps` WHERE (`maps`.`name` = BINARY 'pilot') LIMIT 1[0m
+  [4;36;1mMap Create (0.3ms)[0m   [0;1mINSERT INTO `maps` (`name`, `permalink`, `updated_at`, `description`, `created_at`) VALUES('pilot', 'pilot', '2009-04-09 06:42:50', 'thsi is a test', '2009-04-09 06:42:50')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/pilot
+Completed in 47ms (DB: 7) | 302 Found [http://localhost/maps]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 23:42:50) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) [0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 170ms (View: 25, DB: 3) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 23:43:34) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) [0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 173ms (View: 10, DB: 3) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:43:37) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 19ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-08 23:43:42) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-08 23:43:47) [GET]
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.2ms)
+Completed in 48ms (View: 17, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:43:58) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (12.5ms)
+Completed in 56ms (View: 25, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:45:06) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.7ms)
+Completed in 46ms (View: 16, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:45:13) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.8ms)
+Completed in 46ms (View: 16, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-08 23:45:25) [GET]
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (2.3ms)
+Completed in 48ms (View: 16, DB: 4) | 200 OK [http://localhost/maps/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#create (for 127.0.0.1 at 2009-04-08 23:45:47) [POST]
+  Parameters: {"commit"=>"Create Map", "authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "map"=>{"name"=>"sb", "description"=>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus vitae risus vitae lorem iaculis placerat. Aliquam sit amet felis. Etiam congue. Donec risus risus, pretium ac, tincidunt eu, tempor eu, quam. Morbi blandit mollis magna. Suspendisse eu tortor. Donec vitae felis nec ligula blandit rhoncus. Ut a pede ac neque mattis facilisis. Nulla nunc ipsum, sodales vitae, hendrerit non, imperdiet ac, ante. Morbi sit amet mi. Ut magna. Curabitur id est. Nulla velit. Sed consectetuer sodales justo. Aliquam dictum gravida libero. Sed eu turpis. Nunc id lorem. Aenean consequat tempor mi. Phasellus in neque. Nunc fermentum convallis ligula."}}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mSQL (11.9ms)[0m   [0mBEGIN[0m
+  [4;36;1mMap Exists (0.3ms)[0m   [0;1mSELECT `maps`.id FROM `maps` WHERE (permalink = 'sb') LIMIT 1[0m
+  [4;35;1mMap Exists (0.2ms)[0m   [0mSELECT `maps`.id FROM `maps` WHERE (`maps`.`name` = BINARY 'sb') LIMIT 1[0m
+  [4;36;1mMap Create (0.8ms)[0m   [0;1mINSERT INTO `maps` (`name`, `permalink`, `updated_at`, `description`, `created_at`) VALUES('sb', 'sb', '2009-04-09 06:45:48', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus vitae risus vitae lorem iaculis placerat. Aliquam sit amet felis. Etiam congue. Donec risus risus, pretium ac, tincidunt eu, tempor eu, quam. Morbi blandit mollis magna. Suspendisse eu tortor. Donec vitae felis nec ligula blandit rhoncus. Ut a pede ac neque mattis facilisis. Nulla nunc ipsum, sodales vitae, hendrerit non, imperdiet ac, ante. Morbi sit amet mi. Ut magna. Curabitur id est. Nulla velit. Sed consectetuer sodales justo. Aliquam dictum gravida libero. Sed eu turpis. Nunc id lorem. Aenean consequat tempor mi. Phasellus in neque. Nunc fermentum convallis ligula.', '2009-04-09 06:45:48')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/sb
+Completed in 60ms (DB: 16) | 302 Found [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 23:45:48) [GET]
+  Parameters: {"id"=>"sb"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'sb') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 3) [0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 63ms (View: 9, DB: 3) | 200 OK [http://localhost/maps/sb]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:45:51) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (11.7ms)
+Rendered maps/_map (3.7ms)
+Rendered maps/_map (3.1ms)
+Rendered maps/_map (3.0ms)
+Completed in 59ms (View: 29, DB: 3) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:45:57) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.5ms)
+Rendered maps/_map (3.2ms)
+Rendered maps/_map (3.2ms)
+Rendered maps/_map (3.1ms)
+Completed in 58ms (View: 28, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:46:23) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.0ms)
+Rendered maps/_map (3.1ms)
+Completed in 57ms (View: 27, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:47:14) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.6ms)
+Rendered maps/_map (3.3ms)
+Completed in 58ms (View: 27, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:47:33) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (13.1ms)
+Rendered maps/_map (3.2ms)
+Completed in 60ms (View: 29, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:48:20) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (13.2ms)
+Rendered maps/_map (3.3ms)
+Completed in 60ms (View: 29, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:48:35) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.6ms)
+Rendered maps/_map (3.2ms)
+Completed in 49ms (View: 19, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:49:04) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.7ms)
+Rendered maps/_map (3.1ms)
+Completed in 50ms (View: 20, DB: 3) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:50:16) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.0ms)
+Rendered maps/_map (3.2ms)
+Completed in 49ms (View: 20, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:51:27) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (13.4ms)
+Rendered maps/_map (3.3ms)
+Completed in 68ms (View: 37, DB: 3) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:51:47) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.8ms)
+Rendered maps/_map (3.2ms)
+Completed in 50ms (View: 20, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:52:02) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.8ms)
+Rendered maps/_map (3.3ms)
+Completed in 51ms (View: 20, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:52:27) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+
+ActionView::TemplateError (Illegal element: classes and ids must have values.) on line #4 of app/views/maps/_map.html.haml:
+1: %div.map
+2:   =map_thumbnail(map)
+3:   %h2= link_to(h(map.name), map)
+4:   # %p= h map.description
+
+    app/views/maps/_map.html.haml:4
+    haml (2.1.0) lib/haml/precompiler.rb:562:in `render_tag'
+    haml (2.1.0) lib/haml/precompiler.rb:669:in `render_div'
+    haml (2.1.0) lib/haml/precompiler.rb:198:in `process_line'
+    haml (2.1.0) lib/haml/precompiler.rb:166:in `precompile'
+    haml (2.1.0) lib/haml/engine.rb:103:in `initialize'
+    haml (2.1.0) lib/haml/template/plugin.rb:21:in `new'
+    haml (2.1.0) lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    haml (2.1.0) lib/haml/helpers.rb:57:in `non_haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    app/views/maps/index.html.haml:1:in `_run_haml_app47views47maps47index46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:6:in `index'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (289.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:52:34) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (12.7ms)
+Rendered maps/_map (3.3ms)
+Completed in 59ms (View: 29, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:53:00) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (12.6ms)
+Rendered maps/_map (3.2ms)
+Completed in 59ms (View: 29, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:53:19) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.6ms)
+Rendered maps/_map (3.2ms)
+Completed in 49ms (View: 19, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:53:33) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.1ms)
+Rendered maps/_map (3.2ms)
+Completed in 50ms (View: 20, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:54:01) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.8ms)
+Rendered maps/_map (3.2ms)
+Completed in 50ms (View: 20, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:54:08) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.0ms)
+Rendered maps/_map (3.1ms)
+Completed in 50ms (View: 19, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:54:16) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.1ms)
+Rendered maps/_map (3.2ms)
+Completed in 50ms (View: 20, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:55:27) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (13.0ms)
+Rendered maps/_map (3.3ms)
+Completed in 60ms (View: 29, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:55:43) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.7ms)
+Rendered maps/_map (3.6ms)
+Completed in 50ms (View: 21, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:57:26) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+
+ActionView::TemplateError (undefined method `truncate_preserving_word' for "thsi is a test":String) on line #4 of app/views/maps/_map.html.haml:
+1: %div.map
+2:   =map_thumbnail(map)
+3:   %h2= link_to(h(map.name), map)
+4:   %p.light= h map.description.truncate_preserving_word(:max_chars => 50)
+
+    app/views/maps/_map.html.haml:4:in `_run_haml_app47views47maps47_map46html46haml_locals_map_map_counter_object'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    haml (2.1.0) lib/haml/helpers.rb:57:in `non_haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    app/views/maps/index.html.haml:1:in `_run_haml_app47views47maps47index46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:6:in `index'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (277.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:57:31) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (13.8ms)
+Rendered maps/_map (3.4ms)
+Completed in 60ms (View: 30, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:57:53) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.5ms)
+Rendered maps/_map (3.2ms)
+Completed in 49ms (View: 19, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:58:07) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.7ms)
+Rendered maps/_map (3.1ms)
+Completed in 49ms (View: 19, DB: 3) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-08 23:58:27) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.0ms)
+Rendered maps/_map (3.2ms)
+Completed in 50ms (View: 19, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 23:58:30) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) [0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 64ms (View: 10, DB: 2) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-08 23:58:40) [GET]
+  Parameters: {"map_id"=>"pilot"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (9.7ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (40.9ms)
+Completed in 118ms (View: 56, DB: 14) | 200 OK [http://localhost/maps/pilot/spots/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 23:58:48) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3416061402/sizes/l/in/photostream/"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendered spots/_flickr_geotag_error (1.0ms)
+Completed in 389ms (View: 6, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-08 23:59:03) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3416061402/in/photostream/"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 1459ms (View: 500, DB: 3) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-08 23:59:06) [POST]
+  Parameters: {"map_id"=>"pilot", "commit"=>"Save this Spot", "spot"=>{"name"=>"lagoon", "region"=>"California", "neighbourhood"=>"", "county"=>"Santa Barbara", "flickr_user"=>"sikelianos", "country"=>"United States", "flickr_photo_id"=>"3416061402", "description"=>"Uploaded with Flickup on iPhone.", "locality"=>"", "height"=>"1200", "flickr_medium_url"=>"http://farm4.static.flickr.com/3627/3416061402_30fc2606ac.jpg", "flickr_square_url"=>"http://farm4.static.flickr.com/3627/3416061402_30fc2606ac_s.jpg", "lat"=>"34.419761", "width"=>"1600", "long"=>"-119.66168"}, "authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM="}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Columns (20.5ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSpot Exists (0.4ms)[0m   [0;1mSELECT `spots`.id FROM `spots` WHERE (permalink = 'lagoon' and map_id = 2) LIMIT 1[0m
+  [4;35;1mSpot Exists (0.5ms)[0m   [0mSELECT `spots`.id FROM `spots` WHERE (`spots`.`name` = BINARY 'lagoon' AND `spots`.map_id = 2) LIMIT 1[0m
+  [4;36;1mSpot Create (0.7ms)[0m   [0;1mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `region`, `flickr_user`, `county`, `neighbourhood`, `flickr_photo_id`, `country`, `description`, `flickr_medium_url`, `height`, `locality`, `lat`, `flickr_square_url`, `long`, `created_at`, `width`) VALUES('lagoon', 'lagoon', 2, '2009-04-09 06:59:06', 'California', 'sikelianos', 'Santa Barbara', '', '3416061402', 'United States', 'Uploaded with Flickup on iPhone.', 'http://farm4.static.flickr.com/3627/3416061402_30fc2606ac.jpg', 1200, '', '34.419761', 'http://farm4.static.flickr.com/3627/3416061402_30fc2606ac_s.jpg', '-119.66168', '2009-04-09 06:59:06', 1600)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/pilot
+Completed in 114ms (DB: 25) | 302 Found [http://localhost/maps/pilot/spots]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 23:59:07) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) [0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 80ms (View: 12, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-08 23:59:26) [GET]
+  Parameters: {"map_id"=>"pilot", "id"=>"lagoon"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'lagoon') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (30.5ms)
+Completed in 100ms (View: 47, DB: 5) | 200 OK [http://localhost/maps/pilot/spots/lagoon/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-08 23:59:39) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (10.8ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) [0m
+  [4;35;1mSpot Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 97ms (View: 13, DB: 16) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:01:13) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 84ms (View: 14, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:02:39) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 82ms (View: 12, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:06:07) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 81ms (View: 12, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:07:13) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 82ms (View: 13, DB: 4) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:11:45) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (undefined method `flickr_square_url' for #<Array:0x2275e00>) on line #16 of app/views/maps/show.html.haml:
+13:       -@map.spots.each_with_index do |spot|
+14:         %li
+15:           = link_to(spot_thumbnail(spot), "javascript:google_map_marker_1_infowindow_function()", :class => "image")
+16:           = link_to(spot.name, edit_map_spot_path(@map, spot))
+17: 
+18:   %div
+19:     %h2 options
+
+    app/helpers/spots_helper.rb:59:in `spot_thumbnail'
+    app/views/maps/show.html.haml:16:in `_run_haml_app47views47maps47show46html46haml'
+    app/views/maps/show.html.haml:13:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (149.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:12:22) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (undefined method `flickr_square_url' for #<Array:0x21638b4>) on line #16 of app/views/maps/show.html.haml:
+13:       -@map.spots.each_with_index do |spot|
+14:         %li
+15:           = link_to(spot_thumbnail(spot), "#", :class => "image")
+16:           = link_to(spot.name, edit_map_spot_path(@map, spot))
+17: 
+18:   %div
+19:     %h2 options
+
+    app/helpers/spots_helper.rb:59:in `spot_thumbnail'
+    app/views/maps/show.html.haml:16:in `_run_haml_app47views47maps47show46html46haml'
+    app/views/maps/show.html.haml:13:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (147.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:13:37) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.6ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 196ms (View: 127, DB: 6) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:14:07) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 97ms (View: 27, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#new (for 127.0.0.1 at 2009-04-09 00:14:12) [GET]
+  Parameters: {"map_id"=>"pilot"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering spots/new
+Rendered spots/_spot_form (28.9ms)
+Completed in 89ms (View: 37, DB: 5) | 200 OK [http://localhost/maps/pilot/spots/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#fetch_flickr_photo_info (for 127.0.0.1 at 2009-04-09 00:14:27) [POST]
+  Parameters: {"authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "url"=>"http://www.flickr.com/photos/sikelianos/3415313007/in/photostream/"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Completed in 1656ms (View: 461, DB: 2) | 200 OK [http://localhost/spots/fetch_flickr_photo_info]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#create (for 127.0.0.1 at 2009-04-09 00:14:30) [POST]
+  Parameters: {"map_id"=>"pilot", "commit"=>"Save this Spot", "spot"=>{"name"=>"iraq", "region"=>"California", "neighbourhood"=>"", "county"=>"Santa Barbara", "flickr_user"=>"sikelianos", "country"=>"United States", "flickr_photo_id"=>"3415313007", "description"=>"This memorial to the 4000+ American soldiers that have died in Iraq has been set up on the beach in Santa Barbara every Sunday since November 2003", "locality"=>"", "height"=>"1200", "flickr_medium_url"=>"http://farm4.static.flickr.com/3628/3415313007_4e096407b6.jpg", "flickr_square_url"=>"http://farm4.static.flickr.com/3628/3415313007_4e096407b6_s.jpg", "lat"=>"34.411625", "width"=>"1600", "long"=>"-119.689114"}, "authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM="}
+  [4;35;1mMap Columns (4.1ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSpot Exists (0.3ms)[0m   [0mSELECT `spots`.id FROM `spots` WHERE (permalink = 'iraq' and map_id = 2) LIMIT 1[0m
+  [4;36;1mSpot Exists (0.2ms)[0m   [0;1mSELECT `spots`.id FROM `spots` WHERE (`spots`.`name` = BINARY 'iraq' AND `spots`.map_id = 2) LIMIT 1[0m
+  [4;35;1mSpot Create (0.3ms)[0m   [0mINSERT INTO `spots` (`name`, `permalink`, `map_id`, `updated_at`, `region`, `flickr_user`, `county`, `neighbourhood`, `flickr_photo_id`, `country`, `description`, `flickr_medium_url`, `height`, `locality`, `lat`, `flickr_square_url`, `long`, `created_at`, `width`) VALUES('iraq', 'iraq', 2, '2009-04-09 07:14:30', 'California', 'sikelianos', 'Santa Barbara', '', '3415313007', 'United States', 'This memorial to the 4000+ American soldiers that have died in Iraq has been set up on the beach in Santa Barbara every Sunday since November 2003', 'http://farm4.static.flickr.com/3628/3415313007_4e096407b6.jpg', 1200, '', '34.411625', 'http://farm4.static.flickr.com/3628/3415313007_4e096407b6_s.jpg', '-119.689114', '2009-04-09 07:14:30', 1600)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/maps/pilot
+Completed in 88ms (DB: 8) | 302 Found [http://localhost/maps/pilot/spots]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:14:31) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 178ms (View: 14, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-09 00:14:35) [GET]
+  Parameters: {"map_id"=>"pilot", "id"=>"iraq"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.3ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'iraq') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (29.2ms)
+Completed in 92ms (View: 38, DB: 5) | 200 OK [http://localhost/maps/pilot/spots/iraq/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:16:07) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 100ms (View: 31, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-09 00:16:10) [GET]
+  Parameters: {"map_id"=>"pilot", "id"=>"iraq"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.3ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'iraq') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (29.9ms)
+Completed in 93ms (View: 38, DB: 5) | 200 OK [http://localhost/maps/pilot/spots/iraq/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:16:49) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 86ms (View: 16, DB: 8) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-09 00:16:53) [GET]
+  Parameters: {"map_id"=>"pilot", "id"=>"iraq"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.3ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'iraq') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (31.0ms)
+Completed in 95ms (View: 40, DB: 5) | 200 OK [http://localhost/maps/pilot/spots/iraq/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:17:18) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 84ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:18:49) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 207ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:19:40) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 207ms (View: 16, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:20:12) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 84ms (View: 15, DB: 6) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:21:03) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 84ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:21:24) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (2.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (4.9ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 87ms (View: 15, DB: 10) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:21:37) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 83ms (View: 14, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:21:48) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 83ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:23:55) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 97ms (View: 30, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:24:38) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (1.0ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (1.0ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 91ms (View: 17, DB: 7) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:24:59) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 82ms (View: 14, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-09 00:25:05) [GET]
+  Parameters: {"map_id"=>"pilot", "id"=>"iraq"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'iraq') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (30.0ms)
+Completed in 94ms (View: 39, DB: 5) | 200 OK [http://localhost/maps/pilot/spots/iraq/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:26:19) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 84ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 00:26:38) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 21ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-09 00:26:47) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.6ms)
+Rendered maps/_map (3.5ms)
+Completed in 57ms (View: 27, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-09 00:26:48) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 41ms (View: 29, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-09 00:26:49) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (102.3ms)
+Rendered maps/_map (3.1ms)
+Completed in 141ms (View: 112, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:26:51) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 84ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:27:28) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 92ms (View: 20, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:27:48) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.8ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 85ms (View: 15, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:28:15) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 93ms (View: 16, DB: 6) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:28:52) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 89ms (View: 16, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#edit (for 127.0.0.1 at 2009-04-09 00:29:23) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering maps/edit
+Rendered maps/_map_form (2.2ms)
+Completed in 61ms (View: 29, DB: 2) | 200 OK [http://localhost/maps/pilot/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#update (for 127.0.0.1 at 2009-04-09 00:29:25) [PUT]
+  Parameters: {"commit"=>"Update Map", "authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "id"=>"pilot", "map"=>{"name"=>"pilot", "description"=>"thsi is a test"}}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMap Exists (0.4ms)[0m   [0;1mSELECT `maps`.id FROM `maps` WHERE (`maps`.`name` = BINARY 'pilot' AND `maps`.id <> 2) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maps/pilot
+Completed in 45ms (DB: 3) | 302 Found [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:29:26) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.6ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 90ms (View: 17, DB: 6) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#edit (for 127.0.0.1 at 2009-04-09 00:29:36) [GET]
+  Parameters: {"map_id"=>"pilot", "id"=>"iraq"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'iraq') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/edit
+Rendered spots/_spot_form (29.5ms)
+Completed in 92ms (View: 38, DB: 5) | 200 OK [http://localhost/maps/pilot/spots/iraq/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:29:38) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 91ms (View: 16, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:39:41) [GET]
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.spots) on line #11 of app/views/maps/show.html.haml:
+8:     %p= h @map.description
+9: 
+10:   %div
+11:     %h2 spots
+12:     %ul.spot_list
+13:       -@map.spots.each_with_index do |spot, index|
+14:         %li
+
+    app/helpers/maps_helper.rb:5:in `google_map'
+    app/views/maps/show.html.haml:11:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (138.4ms)
+Rendered rescues/_request_and_response (4.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:40:13) [GET]
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.spots) on line #11 of app/views/maps/show.html.haml:
+8:     %p= h @map.description
+9: 
+10:   %div
+11:     %h2 spots
+12:     %ul.spot_list
+13:       -@map.spots.each_with_index do |spot, index|
+14:         %li
+
+    app/helpers/maps_helper.rb:5:in `google_map'
+    app/views/maps/show.html.haml:11:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (132.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:40:43) [GET]
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.spots) on line #11 of app/views/maps/show.html.haml:
+8:     %p= h @map.description
+9: 
+10:   %div
+11:     %h2 spots
+12:     %ul.spot_list
+13:       -@map.spots.each_with_index do |spot, index|
+14:         %li
+
+    app/helpers/maps_helper.rb:5:in `google_map'
+    app/views/maps/show.html.haml:11:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (229.3ms)
+Rendered rescues/_request_and_response (4.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-09 00:40:47) [GET]
+  [4;36;1mMap Load (0.5ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (17.7ms)
+Rendered maps/_map (3.2ms)
+Completed in 80ms (View: 50, DB: 3) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:40:53) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 241ms (View: 170, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#show (for 127.0.0.1 at 2009-04-09 00:41:15) [GET]
+  Parameters: {"map_id"=>"pilot"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.map_id) on line #23 of app/views/spots/show.html.haml:
+20:   = h @spot.lat
+21: %div
+22:   %b
+23:     Long:
+24:   = h @spot.long
+25: %div
+26:   %b
+
+    app/views/spots/show.html.haml:23:in `_run_haml_app47views47spots47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/spots_controller.rb:27:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (230.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#show (for 127.0.0.1 at 2009-04-09 00:41:33) [GET]
+  Parameters: {"map_id"=>"pilot"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Columns (26.5ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.3ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.map_id) on line #23 of app/views/spots/show.html.haml:
+20:   = h @spot.lat
+21: %div
+22:   %b
+23:     Long:
+24:   = h @spot.long
+25: %div
+26:   %b
+
+    app/views/spots/show.html.haml:23:in `_run_haml_app47views47spots47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/spots_controller.rb:27:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (229.9ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#show (for 127.0.0.1 at 2009-04-09 00:41:56) [GET]
+  Parameters: {"map_id"=>"pilot", "id"=>"iraq"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+  [4;35;1mSpot Load (0.4ms)[0m   [0mSELECT * FROM `spots` WHERE (`spots`.`permalink` = 'iraq') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering spots/show
+
+ActionView::TemplateError (undefined method `flickr_url' for #<Spot:0x22cae8c>) on line #29 of app/views/spots/show.html.haml:
+26:   %b
+27:     Flickr url:
+28:   = h @spot.flickr_url
+29: = link_to 'Edit', edit_spot_path(@spot)
+30: |
+31: = link_to 'Back', spots_path
+
+    app/views/spots/show.html.haml:29:in `_run_haml_app47views47spots47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/spots_controller.rb:27:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (237.7ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:44:25) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 227ms (View: 91, DB: 5) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:45:03) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 100ms (View: 31, DB: 5) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:46:13) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 103ms (View: 31, DB: 5) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:47:05) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 100ms (View: 31, DB: 5) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:47:12) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"google_map_marker_1_infowindow_function()"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (3.5ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (3.8ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 91ms (View: 16, DB: 10) | 200 OK [http://localhost/pilot/google_map_marker_1_infowindow_function()]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:47:33) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"google_map_marker_1_infowindow_function()"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 100ms (View: 31, DB: 5) | 200 OK [http://localhost/pilot/google_map_marker_1_infowindow_function()]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:47:42) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"google_map_marker_1_infowindow_function()"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 84ms (View: 15, DB: 5) | 200 OK [http://localhost/pilot/google_map_marker_1_infowindow_function()]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:47:55) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (5.5ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 106ms (View: 32, DB: 8) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:47:58) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 92ms (View: 16, DB: 6) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:49:33) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 103ms (View: 33, DB: 5) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:49:44) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 102ms (View: 32, DB: 5) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:50:00) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 194ms (View: 32, DB: 5) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-09 00:50:14) [GET]
+
+ActionController::RoutingError (No route matches "/pilot" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:51:01) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 230ms (View: 93, DB: 5) | 200 OK [http://localhost/pilot]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:51:08) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSpot Load (0.5ms)[0m   [0;1mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;35;1mSpot Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 85ms (View: 15, DB: 5) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#edit (for 127.0.0.1 at 2009-04-09 00:51:18) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;36;1mMap Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering maps/edit
+Rendered maps/_map_form (5.8ms)
+Completed in 72ms (View: 40, DB: 2) | 200 OK [http://localhost/maps/pilot/edit]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#update (for 127.0.0.1 at 2009-04-09 00:51:21) [PUT]
+  Parameters: {"commit"=>"Update Map", "authenticity_token"=>"ajBXceuvNWuWeBFlKSl6UKhWyEn/GLUkah4bWImySCM=", "id"=>"pilot", "map"=>{"name"=>"pilot", "description"=>"thsi is a test"}}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMap Exists (0.5ms)[0m   [0mSELECT `maps`.id FROM `maps` WHERE (`maps`.`name` = BINARY 'pilot' AND `maps`.id <> 2) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/maps/pilot
+Completed in 44ms (DB: 3) | 302 Found [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:51:22) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 185ms (View: 113, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:51:25) [GET]
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.spots) on line #11 of app/views/maps/show.html.haml:
+8:     %p= h @map.description
+9: 
+10:   %div
+11:     %h2 spots
+12:     %ul.spot_list
+13:       -@map.spots.each_with_index do |spot, index|
+14:         %li
+
+    app/helpers/maps_helper.rb:5:in `google_map'
+    app/views/maps/show.html.haml:11:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (236.3ms)
+Rendered rescues/_request_and_response (4.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:55:17) [GET]
+  Parameters: {"path"=>[]}
+  [4;36;1mMap Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.spots) on line #10 of app/views/maps/show.html.haml:
+7:     %p= h @map.description
+8: 
+9:   %div
+10:     %h2 spots
+11:     %ul.spot_list
+12:       -@map.spots.each_with_index do |spot, index|
+13:         %li
+
+    app/helpers/maps_helper.rb:5:in `google_map'
+    app/views/maps/show.html.haml:10:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (227.0ms)
+Rendered rescues/_request_and_response (4.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:55:55) [GET]
+  Parameters: {"path"=>[]}
+  [4;36;1mMap Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (0.3ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering maps/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.spots) on line #10 of app/views/maps/show.html.haml:
+7:     %p= h @map.description
+8: 
+9:   %div
+10:     %h2 spots
+11:     %ul.spot_list
+12:       -@map.spots.each_with_index do |spot, index|
+13:         %li
+
+    app/helpers/maps_helper.rb:5:in `google_map'
+    app/views/maps/show.html.haml:10:in `_run_haml_app47views47maps47show46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/maps_controller.rb:15:in `show'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (226.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:56:15) [GET]
+  Parameters: {"path"=>[]}
+
+RuntimeError ({"action"=>"show", "controller"=>"maps", "path"=>[]}):
+  app/controllers/maps_controller.rb:13:in `show'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (96.9ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:57:21) [GET]
+  Parameters: {"path"=>[]}
+Redirected to http://localhost:3000/static/index
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:57:21) [GET]
+  Parameters: {"id"=>"static", "spot_id"=>"index"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+  app/controllers/maps_controller.rb:14:in `show'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (95.3ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:57:24) [GET]
+  Parameters: {"id"=>"static", "spot_id"=>"index"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+  app/controllers/maps_controller.rb:14:in `show'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (95.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SpotsController#index (for 127.0.0.1 at 2009-04-09 00:57:41) [GET]
+  [4;36;1mMap Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+  [4;35;1mMap Load (6.1ms)[0m   [0mSELECT * FROM `maps` WHERE (`maps`.`permalink` IS NULL) LIMIT 1[0m
+  [4;36;1mSpot Load (0.4ms)[0m   [0;1mSELECT * FROM `spots` [0m
+Rendering template within layouts/application
+Rendering spots/index
+  [4;35;1mSpot Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `spots`[0m
+
+ActionView::TemplateError (undefined method `flickr_url' for #<Spot:0x221a3e8>) on line #30 of app/views/spots/index.html.haml:
+27:       %td
+28:         = h spot.flickr_url
+29:       %td
+30:         = link_to 'Show', spot
+31:         = link_to 'Edit', edit_spot_path(spot)
+32:         = link_to 'Destroy', spot, :confirm => 'Are you sure?', :method => :delete
+33: 
+
+    app/views/spots/index.html.haml:30:in `_run_haml_app47views47spots47index46html46haml'
+    app/views/spots/index.html.haml:13:in `each'
+    app/views/spots/index.html.haml:13:in `_run_haml_app47views47spots47index46html46haml'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.1.0) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/spots_controller.rb:8:in `index'
+    haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (136.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:57:51) [GET]
+  Parameters: {"id"=>"static", "spot_id"=>"how"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.empty?):
+  app/controllers/maps_controller.rb:14:in `show'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (197.2ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 00:59:41) [GET]
+  Parameters: {"id"=>"static", "spot_id"=>"how"}
+
+RuntimeError ({"action"=>"show", "id"=>"static", "spot_id"=>"how", "controller"=>"maps"}):
+  app/controllers/maps_controller.rb:13:in `show'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (99.5ms)
+Rendered rescues/_request_and_response (4.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-09 01:00:47) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 64ms (View: 52, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:00:52) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 30ms (View: 18, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 01:00:57) [GET]
+  Parameters: {"id"=>"pilot"}
+
+RuntimeError ({"action"=>"show", "id"=>"pilot", "controller"=>"maps"}):
+  app/controllers/maps_controller.rb:13:in `show'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (99.4ms)
+Rendered rescues/_request_and_response (4.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 01:01:05) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+
+RuntimeError ({"action"=>"show", "id"=>"pilot", "spot_id"=>"iraq", "controller"=>"maps"}):
+  app/controllers/maps_controller.rb:13:in `show'
+  haml (2.1.0) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (98.0ms)
+Rendered rescues/_request_and_response (0.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:01:49) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 51ms (View: 39, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:01:52) [GET]
+Rendering template within layouts/application
+Rendering static/index
+Completed in 18ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-09 01:01:54) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (17.7ms)
+Rendered maps/_map (3.2ms)
+Completed in 193ms (View: 139, DB: 2) | 200 OK [http://localhost/maps]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#how (for 127.0.0.1 at 2009-04-09 01:01:56) [GET]
+Rendering template within layouts/application
+Rendering static/how
+Completed in 41ms (View: 30, DB: 0) | 200 OK [http://localhost/static/how]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#new (for 127.0.0.1 at 2009-04-09 01:02:00) [GET]
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendering template within layouts/application
+Rendering maps/new
+Rendered maps/_map_form (5.8ms)
+Completed in 65ms (View: 35, DB: 2) | 200 OK [http://localhost/maps/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-09 01:02:03) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.0ms)
+Rendered maps/_map (4.1ms)
+Completed in 51ms (View: 21, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 01:02:05) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 176ms (View: 69, DB: 5) | 200 OK [http://localhost/maps/pilot]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 01:02:19) [GET]
+  Parameters: {"id"=>"pilot", "spot_id"=>"iraq"}
+  [4;35;1mMap Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 174ms (View: 15, DB: 5) | 200 OK [http://localhost/pilot/iraq]

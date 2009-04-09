@@ -1,11 +1,17 @@
 class Map < ActiveRecord::Base
 
-  has_many :spots
-  
+  validates_uniqueness_of :name
+  validates_format_of :name, :with => /^\w+$/i, :message => "can only contain letters and numbers."
+
   has_permalink :name
 
+  has_many :spots, :order => "spots.created_at DESC", :dependent => :destroy
+
   def validate
-    # Watch for stopwords: maps, map, spots, spot
+    stop_words = %w(spot map static index)
+    if stop_words.include?(self.name.downcase)
+      errors.add_to_base "Sorry, you can't name your map '#{self.name}'. That word is reserved by the dictatorial regime."
+    end
   end
   
   def to_param; self.permalink; end

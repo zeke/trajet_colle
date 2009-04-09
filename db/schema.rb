@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090409010523) do
+ActiveRecord::Schema.define(:version => 20090409044321) do
 
   create_table "maps", :force => true do |t|
     t.string   "name"
@@ -34,6 +34,11 @@ ActiveRecord::Schema.define(:version => 20090409010523) do
     t.string   "flickr_medium_url"
     t.integer  "width"
     t.integer  "height"
+    t.string   "country"
+    t.string   "region"
+    t.string   "county"
+    t.string   "locality"
+    t.string   "neighbourhood"
   end
 
 end

@@ -1,2 +1,4 @@
-%h2= link_to(h(map.name), map)
-%p= h map.description
+%div.map
+  =map_thumbnail(map)
+  %h2= link_to(h(map.name), map)
+  %p.light= h map.description.truncate_preserving_words(:max_chars => 50)

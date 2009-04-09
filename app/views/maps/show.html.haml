@@ -1,4 +1,3 @@
-
 = google_map(@map)
 
 %div.thirds
@@ -10,10 +9,13 @@
   %div
     %h2 spots
     %ul.spot_list
-      -for spot in @map.spots
+      -@map.spots.each_with_index do |spot, index|
         %li
-          = link_to(spot_thumbnail(spot), "#", :class => "image")
-          = link_to(spot.name, edit_map_spot_path(@map, spot))
+          - js = "google_map_marker_#{index+1}_infowindow_function()"
+          = link_to(spot_thumbnail(spot), "javascript:#{js}", :class => "image")
+          = link_to(spot.name, "javascript:#{js}")
+          - if params[:spot_id] && params[:spot_id] == spot.permalink
+            %script{:type => "text/javascript"}== setTimeout("#{js}", 500);
 
   %div
     %h2 options

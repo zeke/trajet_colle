@@ -5,34 +5,31 @@
     
   %div= submit_tag "Fetch Photo Data"
 
+  %div#flickr_errors &nbsp;
 
-- form_for([@map, @spot]) do |f|
+- form_for([@map, @spot], :html => {:id => "form", :style => "display:none"}) do |f|
   = f.error_messages
   
   %div
-    = f.label :name
+    = f.label :name, "Spot Name (lowercase, letters and numbers only)"
     = f.text_field :name, :class => "text title"
   
   %div
-    = f.label :description
+    = f.label :description, "Spot Description"
     = f.text_area :description, :class => "text"
-  
-  %div
-    = f.label :lat, "Latitude"
-    = f.text_field :lat, :class => "text"
-  
-  %div
-    = f.label :long, "Longitude"
-    = f.text_field :long, :class => "text"
     
   %div
+    = f.hidden_field :lat
+    = f.hidden_field :long
     = f.hidden_field :flickr_photo_id
     = f.hidden_field :flickr_user
     = f.hidden_field :flickr_square_url
     = f.hidden_field :flickr_medium_url
     = f.hidden_field :width
     = f.hidden_field :height
+    = f.hidden_field :country
+    = f.hidden_field :region
+    = f.hidden_field :county
+    = f.hidden_field :locality
+    = f.hidden_field :neighbourhood    
     = f.submit 'Save this Spot'
-
-%div#metadata
-  this is metadata

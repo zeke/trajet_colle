@@ -25,7 +25,7 @@ module ApplicationHelper
    items = []
    items << link_to("index", root_path)
    items << link_to("maps", maps_path)
-   items << link_to("create your own", "static/how")
+   items << link_to("create your own", "/static/how")
    convert_to_list_items(items)
  end
  

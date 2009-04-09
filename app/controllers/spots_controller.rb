@@ -13,8 +13,12 @@ class SpotsController < ApplicationController
   
   def fetch_flickr_photo_info
     url = params[:url]
-    doc = Nokogiri::HTML(open(url))
-    render(:update) { |page| page.populate_form_with_flickr_photo_info(url, doc) }
+    # begin
+      doc = Nokogiri::HTML(open(url))
+      render(:update) { |page| page.populate_form_with_flickr_photo_info(url, doc) }
+    # rescue
+    #   render(:update) { |page| page.bad_url(url) }
+    # end
   end
 
   def show
