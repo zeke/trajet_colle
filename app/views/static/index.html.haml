@@ -1,14 +1,30 @@
 %div.column
 
   %p
-    Trajet Collé 
-    %em (tra-zhay co-lay),
-    meaning 'pasted trip', is an ongoing collaborative experiment in printmaking, 
-    graffiti, mapmaking, and community space.
+    Trajet Collé (<em>tra-zhay co-lay</em>, meaning 'pasted trip' in french),
+    is an experiment in printmaking, street art, map-making, and community.
+    
+  %p
+    On this site you'll find a variety of maps, assembled anonymously by strangers.
+    Each point on a map corresponds to a real-life location where a printed trajet collé 
+    image has been pasted. Each real-life image contains a hand-written URL link to 
+    this site. Passersby curious enough to remember the website address and open it in their browser 
+    find that the image they saw pasted on the street is just one of many points on
+    an openly editable map.
     
   %p
     The project began in my printmaking class: Our assignment was 
     to post our screenprinted images in a manner that raised awareness of the divide 
-    between public and private space. This is one of my prints..
+    between public and private space. This is my first screenprint..
     
   = image_tag("velo_print.png")
+  
+
+  %h2= link_to("View the maps..", maps_path)
+
+
+  
+  / %p
+  /   Trajet Collé is open source. 
+  /   For the technically inclined, the source for this application can be found on 
+  /   = link_to("github.", "http://github.com/zeke/trajet_colle/tree/master")

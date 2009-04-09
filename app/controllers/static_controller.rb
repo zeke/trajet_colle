@@ -1,6 +1,8 @@
 class StaticController < ApplicationController
 
-  def index; end;
+  def index
+    @maps = Map.all
+  end
 
   def how; end
 

@@ -9913,3 +9913,175 @@ Processing MapsController#show (for 127.0.0.1 at 2009-04-09 01:02:19) [GET]
 Rendering template within layouts/application
 Rendering maps/show
 Completed in 174ms (View: 15, DB: 5) | 200 OK [http://localhost/pilot/iraq]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:09:25) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+  [4;35;1mMap Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (21.1ms)
+Rendered maps/_map (3.6ms)
+Completed in 130ms (View: 75, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:13:11) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.1ms)
+Rendered maps/_map (5.3ms)
+Completed in 78ms (View: 41, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:13:25) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (15.0ms)
+Rendered maps/_map (3.2ms)
+Completed in 69ms (View: 38, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (3.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:13:42) [GET]
+  [4;36;1mMap Load (0.6ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (9.9ms)
+Rendered maps/_map (3.3ms)
+Completed in 69ms (View: 36, DB: 5) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:19:53) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+  [4;35;1mMap Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.2ms)
+Rendered maps/_map (4.8ms)
+Completed in 71ms (View: 36, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:25:50) [GET]
+  [4;36;1mMap Load (0.6ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.2ms)
+Rendered maps/_map (5.3ms)
+Completed in 71ms (View: 37, DB: 3) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:26:42) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+Completed in 53ms (View: 23, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:27:10) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+Completed in 55ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:27:15) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+Completed in 41ms (View: 7, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-09 01:27:18) [GET]
+  [4;35;1mMap Load (0.5ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (19.0ms)
+Rendered maps/_map (3.3ms)
+Completed in 79ms (View: 39, DB: 3) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:27:21) [GET]
+  [4;35;1mMap Load (5.6ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+Completed in 41ms (View: 7, DB: 6) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:27:56) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+Completed in 54ms (View: 25, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:28:11) [GET]
+  [4;35;1mMap Load (0.6ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+Completed in 50ms (View: 21, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StaticController#index (for 127.0.0.1 at 2009-04-09 01:28:51) [GET]
+  [4;36;1mMap Load (0.4ms)[0m   [0;1mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering static/index
+Completed in 54ms (View: 23, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#index (for 127.0.0.1 at 2009-04-09 01:28:55) [GET]
+  [4;35;1mMap Load (0.4ms)[0m   [0mSELECT * FROM `maps` [0m
+Rendering template within layouts/application
+Rendering maps/index
+  [4;36;1mMap Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `maps`[0m
+Rendered maps/_map (10.1ms)
+Rendered maps/_map (4.5ms)
+Completed in 56ms (View: 21, DB: 2) | 200 OK [http://localhost/maps]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MapsController#show (for 127.0.0.1 at 2009-04-09 01:28:57) [GET]
+  Parameters: {"id"=>"pilot"}
+  [4;35;1mMap Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `maps`[0m
+  [4;36;1mMap Load (0.3ms)[0m   [0;1mSELECT * FROM `maps` WHERE (`maps`.`permalink` = 'pilot') LIMIT 1[0m
+  [4;35;1mSpot Load (0.5ms)[0m   [0mSELECT `spots`.* FROM `spots` WHERE (`spots`.map_id = 2) ORDER BY spots.created_at DESC[0m
+  [4;36;1mSpot Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `spots`[0m
+Rendering template within layouts/application
+Rendering maps/show
+Completed in 307ms (View: 77, DB: 5) | 200 OK [http://localhost/maps/pilot]
